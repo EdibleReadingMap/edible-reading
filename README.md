@@ -1,7 +1,7 @@
 # Edible Reading Map
 
 [Edible Reading](http://ediblereading.com/) is a blog of restaurant/cafe food reviews on venues in the area of Reading, Berkshire, UK.
-The code in this repo scrapes info from the website, puts it into a database, then produces a [GeoJSON](http://en.wikipedia.org/wiki/GeoJSON) map.
+The code in this repo scrapes info from the website, puts it into a database, then produces a [GeoJSON](http://en.wikipedia.org/wiki/GeoJSON) file.
 
 Github kindly renders the GeoJSON [map](https://github.com/ollyg/edible-reading/blob/master/edread.geojson) (desktop browsers only).
 
