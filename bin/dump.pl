@@ -10,8 +10,7 @@ use Mojo::Asset::File;
 use lib qw( ../lib lib );
 use ER::Schema;
 
-binmode STDOUT, ":encoding(UTF-8)";
-my $s = ER::Schema->connect('dbi:Pg:dbname=er;host=127.0.0.1');
+my $s = ER::Schema->connect('dbi:SQLite:dbname=./edread.db');
 my $rs = $s->resultset('Review');
 
 my @features = ();
