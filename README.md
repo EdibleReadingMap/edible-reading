@@ -21,7 +21,7 @@ Yes, the `cat` is intentional; forces correct encoding.
 
 # Google Locations and Places
 
-The `google.pl` script makes use of the Google Locations and Places APIs to geolocate the venues. You'll need an API key.
+The `google.pl` script makes use of the Google Locations and Places APIs to geocode the venues. You'll need an API key.
 
 # Database
 
