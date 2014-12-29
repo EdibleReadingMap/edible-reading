@@ -27,6 +27,7 @@ while (my $r = $rs->next) {
             'marker-symbol' => 'restaurant',
             Rating => $r->score,
             Website => $r->website,
+            Review => $r->review,
         },
     };
 }
