@@ -19,6 +19,10 @@ $ bin/dump.pl
 
 Yes, the `cat` is intentional; forces correct encoding.
 
+# Google Locations and Places
+
+The `google.pl` script makes use of the Google Locations and Places APIs to geolocate the venues. You'll need an API key.
+
 # Database
 
 At home I used PostgreSQL but I've included an SQLite3 copy of the database in the repo. The scripts are set up to use the SQLite3 copy.
