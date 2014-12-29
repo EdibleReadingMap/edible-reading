@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use DBIx::Class;
-use Mojo::JSON 'encode_json';
+use Mojo::JSON 'to_json';
 use Mojo::Asset::File;
 
 use lib qw( ../lib lib );
@@ -28,7 +28,6 @@ while (my $r = $rs->next) {
             'marker-symbol' => 'restaurant',
             Rating => $r->score,
             Website => $r->website,
-            url => $r->website,
         },
     };
 }
@@ -39,6 +38,6 @@ my $data = {
 };
 
 my $file = Mojo::Asset::File->new;
-$file->add_chunk( encode_json( $data ) );
+$file->add_chunk( to_json( $data ) );
 $file->move_to('./edread.geojson');
 
