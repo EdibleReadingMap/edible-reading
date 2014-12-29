@@ -1,4 +1,4 @@
-package ER::DB;
+package ER::Schema;
 
 use strict;
 use warnings;
