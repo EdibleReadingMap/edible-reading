@@ -24,10 +24,11 @@ while (my $r = $rs->next) {
             coordinates => [ $r->long, $r->lat ],
         },
         properties => {
-            title => $r->name,
+            Title => $r->name,
             'marker-symbol' => 'restaurant',
-            rating => $r->score,
-            website => $r->website,
+            Rating => $r->score,
+            Website => $r->website,
+            url => $r->website,
         },
     };
 }
