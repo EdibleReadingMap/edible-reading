@@ -1,7 +1,6 @@
 # Edible Reading Map
 
-[Edible Reading](http://ediblereading.com/) is a blog of restaurant/cafe food reviews for places in the area of Reading, Berkshire, UK.
-
+[Edible Reading](http://ediblereading.com/) is a blog of restaurant/cafe food reviews on venues in the area of Reading, Berkshire, UK.
 The code in this repo scrapes info from the website, put it into a database, then produces a [GeoJSON](http://en.wikipedia.org/wiki/GeoJSON) map.
 
 Github kindly renders the GeoJSON [map](https://github.com/ollyg/edible-reading/blob/master/edread.geojson) (desktop browsers only).
@@ -30,6 +29,6 @@ I think you'll need [Mojolicious](https://metacpan.org/pod/Mojolicious) and [DBI
 
 # Author
 
-[Oliver Gorwits](oliver@cpan.org)
+[Oliver Gorwits](mailto:oliver@cpan.org)
 
 With thanks to Edible Reading!
