@@ -21,7 +21,7 @@ while (my $r = $rs->next) {
         id => $r->review,
         geometry => {
             type => 'Point',
-            coordinates => [ $r->lat, $r->long ],
+            coordinates => [ $r->long, $r->lat ],
         },
         properties => {
             title => $r->name,
