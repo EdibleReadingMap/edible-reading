@@ -53,10 +53,24 @@ $writer->xmlDecl("UTF-8");
 $writer->startTag('kml',
   xmlns => 'http://www.opengis.net/kml/2.2');
 $writer->startTag('Document');
+$writer->startTag('Style',
+  id => 'restaurantIcon');
+$writer->startTag('IconStyle');
+$writer->startTag('Icon');
+$writer->startTag('href');
+$writer->characters('http://maps.google.com/mapfiles/kml/pal2/icon32.png');
+$writer->endTag('href');
+$writer->endTag('Icon');
+$writer->endTag('IconStyle');
+$writer->endTag('Style');
 
 $rs->reset;
 while (my $r = $rs->next) {
     $writer->startTag('Placemark');
+
+    $writer->startTag('styleUrl');
+    $writer->characters('#restaurantIcon');
+    $writer->endTag('styleUrl');
 
     $writer->startTag('name');
     $writer->characters( $r->name );
