@@ -67,7 +67,7 @@ while (my $r = $rs->next) {
 
     $writer->startTag('Point');
     $writer->startTag('coordinates');
-    $writer->characters( $r->lat .','. $r->long );
+    $writer->characters( $r->long .','. $r->lat );
     $writer->endTag('coordinates');
     $writer->endTag('Point');
 
