@@ -1,375 +1,695 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
-  <Placemark>
-    <name>Bel &amp; The Dragon</name>
-    <description>6.6</description>
-    <Point>
-      <coordinates>-0.958286,51.455804</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Bhel Puri House</name>
-    <description>6.8</description>
-    <Point>
-      <coordinates>-0.97039,51.454813</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Café YOLK</name>
-    <description>5.2</description>
-    <Point>
-      <coordinates>-0.950108,51.449473</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Coconut Bar &amp; Kitchen</name>
-    <description>6.8</description>
-    <Point>
-      <coordinates>-0.974788,51.454857</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Five Guys - Reading</name>
-    <description>5.5</description>
-    <Point>
-      <coordinates>-0.971702,51.453097</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>La Courbe</name>
-    <description>7.3</description>
-    <Point>
-      <coordinates>-0.969569,51.454634</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Pack Horse</name>
-    <description>5.1</description>
-    <Point>
-      <coordinates>-1.0048352,51.4978973</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Moderation</name>
-    <description>6.6</description>
-    <Point>
-      <coordinates>-0.977444,51.46433</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>My Kitchen</name>
-    <description>7.5</description>
-    <Point>
-      <coordinates>-0.972285,51.456568</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Ruchetta</name>
-    <description>7.5</description>
-    <Point>
-      <coordinates>-0.833495,51.411168</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Malmaison Reading</name>
-    <description>6.5</description>
-    <Point>
-      <coordinates>-0.972018,51.457768</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Abbot Cook</name>
-    <description>6.0</description>
-    <Point>
-      <coordinates>-0.950586,51.45278</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Art of Siam</name>
-    <description>7.7</description>
-    <Point>
-      <coordinates>-0.969682,51.454635</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Catherine Wheel</name>
-    <description>7.2</description>
-    <Point>
-      <coordinates>-1.136984,51.521439</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Tutus Ethiopian Table</name>
-    <description>5.7</description>
-    <Point>
-      <coordinates>-0.968177,51.452816</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Three Tuns</name>
-    <description>8.4</description>
-    <Point>
-      <coordinates>-0.9057615,51.5372426</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Barts Grill and Restaurant</name>
-    <description>6.2</description>
-    <Point>
-      <coordinates>-0.942624,51.451712</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>BHOJ</name>
-    <description>8.2</description>
-    <Point>
-      <coordinates>-0.994971,51.456702</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Bill's Restaurant</name>
-    <description>6.4</description>
-    <Point>
-      <coordinates>-0.97324,51.454838</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Shaun Dickens At The Boat House</name>
-    <description>6.9</description>
-    <Point>
-      <coordinates>-0.899994,51.53532</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Bull on Bell St</name>
-    <description>5.3</description>
-    <Point>
-      <coordinates>-0.904636,51.539263</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Cerise Restaurant &amp; Bar</name>
-    <description>7.9</description>
-    <Point>
-      <coordinates>-0.967103,51.456385</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Chennai Dosa</name>
-    <description>7.0</description>
-    <Point>
-      <coordinates>-0.968331,51.455057</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>China Palace</name>
-    <description>6.3</description>
-    <Point>
-      <coordinates>-0.977169,51.455187</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Cote Brasserie</name>
-    <description>7.8</description>
-    <Point>
-      <coordinates>-0.968947,51.453505</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Dolce Vita</name>
-    <description>7.6</description>
-    <Point>
-      <coordinates>-0.969535,51.454221</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Forbury's Restaurant</name>
-    <description>7.1</description>
-    <Point>
-      <coordinates>-0.968138,51.456041</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Faith Kitchen</name>
-    <description>6.4</description>
-    <Point>
-      <coordinates>-0.9941216,51.4565587</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Kings Grill</name>
-    <description>8.0</description>
-    <Point>
-      <coordinates>-0.967978,51.454796</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Kyrenia</name>
-    <description>8.6</description>
-    <Point>
-      <coordinates>-0.972923,51.467776</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Mission Burrito</name>
-    <description>6.7</description>
-    <Point>
-      <coordinates>-0.97139,51.453261</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Mr Chips and Bubble Tea Reading</name>
-    <description>6.5</description>
-    <Point>
-      <coordinates>-0.976309,51.455011</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>House Of Flavours</name>
-    <description>8.3</description>
-    <Point>
-      <coordinates>-0.967944,51.454862</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Kei's</name>
-    <description>6.7</description>
-    <Point>
-      <coordinates>-0.913796,51.428485</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>London Street Brasserie</name>
-    <description>6.8</description>
-    <Point>
-      <coordinates>-0.968735,51.453938</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Sushimania</name>
-    <description>7.4</description>
-    <Point>
-      <coordinates>-0.976985,51.454416</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Sweeney &amp; Todd</name>
-    <description>5.2</description>
-    <Point>
-      <coordinates>-0.974452,51.453693</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Pau Brasil</name>
-    <description>6.1</description>
-    <Point>
-      <coordinates>-0.965853,51.446771</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Pepe Sale</name>
-    <description>8.3</description>
-    <Point>
-      <coordinates>-0.97745,51.454247</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Picasso tapas restaurant</name>
-    <description>4.1</description>
-    <Point>
-      <coordinates>-0.977006,51.466567</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Quattro Restaurant</name>
-    <description>6.5</description>
-    <Point>
-      <coordinates>-0.972789,51.467906</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>RYND Bar &amp; Kitchen</name>
-    <description>6.2</description>
-    <Point>
-      <coordinates>-0.974519,51.453569</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Sapana Home</name>
-    <description>6.3</description>
-    <Point>
-      <coordinates>-0.971976,51.456389</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Tampopo</name>
-    <description>7.6</description>
-    <Point>
-      <coordinates>-0.969061,51.453441</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Tasting House</name>
-    <description>6.8</description>
-    <Point>
-      <coordinates>-0.973102,51.455377</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Thai Corner</name>
-    <description>7.0</description>
-    <Point>
-      <coordinates>-0.976365,51.456435</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Zerodegrees - Microbrewery Restaurant</name>
-    <description>5.4</description>
-    <Point>
-      <coordinates>-0.973352,51.453645</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Plowden Arms</name>
-    <description>8.7</description>
-    <Point>
-      <coordinates>-0.9029243,51.4981107</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>The Bull Inn</name>
-    <description>8.1</description>
-    <Point>
-      <coordinates>-0.911804,51.473671</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Pappadams</name>
-    <description>7.2</description>
-    <Point>
-      <coordinates>-0.9655892,51.4546466</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Warwick Arms</name>
-    <description>7.2</description>
-    <Point>
-      <coordinates>-0.9635408,51.4550965</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Perry's</name>
-    <description>6.7</description>
-    <Point>
-      <coordinates>-0.969072,51.455234</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>Blue’s Smokehouse, Bracknell</name>
-    <description>7.4</description>
-    <Point>
-      <coordinates>-0.7519424,51.4168924</coordinates>
-    </Point>
-  </Placemark>
+  <Document>
+    <Placemark>
+      <name>Bel &amp; The Dragon</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.6</li>
+      <li><a href="http://ediblereading.com/2014/04/25/bel-and-the-dragon/">Review</a></li>
+      <li><a href="http://www.belandthedragon-reading.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.958286,51.455804,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bhel Puri House</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.8</li>
+      <li><a href="http://ediblereading.com/2014/01/24/bhel-puri-house/">Review</a></li>
+      <li><a href="http://bhelpurihouse.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.97039,51.454813,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Café YOLK</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.2</li>
+      <li><a href="http://ediblereading.com/2013/11/22/cafe-yolk/">Review</a></li>
+      <li><a href="https://www.facebook.com/cafeyolk">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.950108,51.449473,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Coconut Bar &amp; Kitchen</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.8</li>
+      <li><a href="http://ediblereading.com/2014/07/04/coconut-bar-kitchen/">Review</a></li>
+      <li><a href="http://www.coconutbarkitchen.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.974788,51.454857,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Five Guys - Reading</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.5</li>
+      <li><a href="http://ediblereading.com/2013/09/20/five-guys/">Review</a></li>
+      <li><a href="https://www.fiveguys.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971702,51.453097,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Courbe</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.3</li>
+      <li><a href="http://ediblereading.com/2014/02/21/la-courbe/">Review</a></li>
+      <li><a href="www.lacourbe.co.uk">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969569,51.454634,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Pack Horse</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.1</li>
+      <li><a href="http://ediblereading.com/2014/03/14/the-pack-horse-mapledurham/">Review</a></li>
+      <li><a href="http://www.homecountiespubs.co.uk/packhorse/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-1.0048352,51.4978973,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Moderation</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.6</li>
+      <li><a href="http://ediblereading.com/2013/12/06/moderation/">Review</a></li>
+      <li><a href="http://www.spirit-house.co.uk/moderation/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.977444,51.46433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>My Kitchen</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.5</li>
+      <li><a href="http://ediblereading.com/2014/06/27/my-kitchen/">Review</a></li>
+      <li><a href="http://www.mykitchenandcoffee.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.972285,51.456568,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Ruchetta</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.5</li>
+      <li><a href="http://ediblereading.com/2014/05/30/ruchetta-wokingham/">Review</a></li>
+      <li><a href="http://www.ruchetta.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.833495,51.411168,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Malmaison Reading</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.5</li>
+      <li><a href="http://ediblereading.com/2014/08/08/malmaison/">Review</a></li>
+      <li><a href="https://www.malmaison.com/locations/reading/brasserie/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.972018,51.457768,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Abbot Cook</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.0</li>
+      <li><a href="http://ediblereading.com/2014/04/18/the-abbot-cook/">Review</a></li>
+      <li><a href="http://www.theabbotcookreading.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.950586,51.45278,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Art of Siam</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.7</li>
+      <li><a href="http://ediblereading.com/2014/08/15/art-of-siam/">Review</a></li>
+      <li><a href="http://www.artofsiamuk.com/reading/aboutus.php">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969682,51.454635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Catherine Wheel</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.2</li>
+      <li><a href="http://ediblereading.com/2014/07/11/the-catherine-wheel-goring/">Review</a></li>
+      <li><a href="http://www.catherinewheelgoring.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-1.136984,51.521439,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tutus Ethiopian Table</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.7</li>
+      <li><a href="http://ediblereading.com/2014/11/28/tutus-ethiopian-table/">Review</a></li>
+      <li><a href="http://www.tutus-ethiopian-table.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968177,51.452816,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Three Tuns</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.4</li>
+      <li><a href="http://ediblereading.com/2014/09/12/the-three-tuns-henley/">Review</a></li>
+      <li><a href="http://threetunshenley.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9057615,51.5372426,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Barts Grill and Restaurant</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.2</li>
+      <li><a href="http://ediblereading.com/2014/01/10/barts/">Review</a></li>
+      <li><a href="http://www.bartsgrill.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.942624,51.451712,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>BHOJ</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.2</li>
+      <li><a href="http://ediblereading.com/2014/05/02/bhoj/">Review</a></li>
+      <li><a href="http://www.bhoj.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.994971,51.456702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bill's Restaurant</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.4</li>
+      <li><a href="http://ediblereading.com/2014/11/14/bills/">Review</a></li>
+      <li><a href="http://bills-website.co.uk/restaurants/reading/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.97324,51.454838,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Shaun Dickens At The Boat House</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.9</li>
+      <li><a href="http://ediblereading.com/2014/10/17/shaun-dickens-at-the-boathouse-henley/">Review</a></li>
+      <li><a href="http://www.shaundickens.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.899994,51.53532,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Bull on Bell St</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.3</li>
+      <li><a href="http://ediblereading.com/2014/01/31/the-bull-on-bell-street-henley/">Review</a></li>
+      <li><a href="http://www.bullonbell.co.uk/home">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.904636,51.539263,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cerise Restaurant &amp; Bar</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.9</li>
+      <li><a href="http://ediblereading.com/2014/02/28/cerise/">Review</a></li>
+      <li><a href="http://www.theforburyhotel.co.uk/dine/cerise">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.967103,51.456385,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chennai Dosa</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.0</li>
+      <li><a href="http://ediblereading.com/2014/10/10/chennai-dosa/">Review</a></li>
+      <li><a href="http://www.chennaidosa.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968331,51.455057,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>China Palace</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.3</li>
+      <li><a href="http://ediblereading.com/2014/05/09/china-palace/">Review</a></li>
+      <li><a href="http://www.chinapalacereading.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.977169,51.455187,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cote Brasserie</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.8</li>
+      <li><a href="http://ediblereading.com/2014/03/07/cote/">Review</a></li>
+      <li><a href="http://www.cote-restaurants.co.uk/Cote_Restaurant_Reading.html">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968947,51.453505,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Dolce Vita</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.6</li>
+      <li><a href="http://ediblereading.com/2014/04/11/dolce-vita/">Review</a></li>
+      <li><a href="http://www.dolcevitareading.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969535,51.454221,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Forbury's Restaurant</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.1</li>
+      <li><a href="http://ediblereading.com/2013/11/15/forburys/">Review</a></li>
+      <li><a href="http://forburys.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968138,51.456041,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Faith Kitchen</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.4</li>
+      <li><a href="http://ediblereading.com/2014/10/03/faith-kitchen/">Review</a></li>
+      <li><a href="http://www.faithkitchen.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9941216,51.4565587,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kings Grill</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.0</li>
+      <li><a href="http://ediblereading.com/2014/08/22/kings-grill/">Review</a></li>
+      <li><a href="">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.967978,51.454796,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kyrenia</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.6</li>
+      <li><a href="http://ediblereading.com/2014/12/12/kyrenia/">Review</a></li>
+      <li><a href="http://www.kyreniarestaurant.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.972923,51.467776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mission Burrito</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.7</li>
+      <li><a href="http://ediblereading.com/2014/03/21/mission-burrito/">Review</a></li>
+      <li><a href="http://missionburrito.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.97139,51.453261,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mr Chips and Bubble Tea Reading</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.5</li>
+      <li><a href="http://ediblereading.com/2014/09/26/mr-chips/">Review</a></li>
+      <li><a href="http://www.mrchipsandbubbleteareading.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.976309,51.455011,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>House Of Flavours</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.3</li>
+      <li><a href="http://ediblereading.com/2013/12/13/house-flavours/">Review</a></li>
+      <li><a href="http://house-of-flavours.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.967944,51.454862,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Kei's</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.7</li>
+      <li><a href="http://ediblereading.com/2014/12/05/keis/">Review</a></li>
+      <li><a href="http://www.keis.co.uk/reading/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.913796,51.428485,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>London Street Brasserie</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.8</li>
+      <li><a href="http://ediblereading.com/2013/09/06/london-street-brasserie/">Review</a></li>
+      <li><a href="http://www.londonstbrasserie.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968735,51.453938,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sushimania</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.4</li>
+      <li><a href="http://ediblereading.com/2013/11/08/sushimania/">Review</a></li>
+      <li><a href="http://www.reading.sushimania.co.uk">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.976985,51.454416,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sweeney &amp; Todd</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.2</li>
+      <li><a href="http://ediblereading.com/2014/01/17/sweeney-and-todd/">Review</a></li>
+      <li><a href="http://www.sweeneyandtodd.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.974452,51.453693,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pau Brasil</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.1</li>
+      <li><a href="http://ediblereading.com/2014/08/01/pau-brasil/">Review</a></li>
+      <li><a href="https://www.facebook.com/paubrasiluk">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.965853,51.446771,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pepe Sale</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.3</li>
+      <li><a href="http://ediblereading.com/2013/08/23/pepe-sale/">Review</a></li>
+      <li><a href="http://pepesale.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.97745,51.454247,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Picasso tapas restaurant</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 4.1</li>
+      <li><a href="http://ediblereading.com/2013/09/13/picasso/">Review</a></li>
+      <li><a href="http://www.picasso-tapas.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.977006,51.466567,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Quattro Restaurant</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.5</li>
+      <li><a href="http://ediblereading.com/2014/11/21/quattro/">Review</a></li>
+      <li><a href="http://www.quattro-restaurant.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.972789,51.467906,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RYND Bar &amp; Kitchen</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.2</li>
+      <li><a href="http://ediblereading.com/2014/10/24/rynd/">Review</a></li>
+      <li><a href="http://ryndreading.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.974519,51.453569,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sapana Home</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.3</li>
+      <li><a href="http://ediblereading.com/2014/09/19/sapana-home/">Review</a></li>
+      <li><a href="">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971976,51.456389,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tampopo</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.6</li>
+      <li><a href="http://ediblereading.com/2014/06/06/tampopo/">Review</a></li>
+      <li><a href="http://www.tampopo.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969061,51.453441,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Tasting House</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.8</li>
+      <li><a href="http://ediblereading.com/2014/06/13/tasting-house/">Review</a></li>
+      <li><a href="http://tastinghouse.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.973102,51.455377,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Thai Corner</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.0</li>
+      <li><a href="http://ediblereading.com/2014/02/14/thai-corner/">Review</a></li>
+      <li><a href="http://www.thaicornerreading.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.976365,51.456435,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zerodegrees - Microbrewery Restaurant</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 5.4</li>
+      <li><a href="http://ediblereading.com/2013/08/30/zerodegrees/">Review</a></li>
+      <li><a href="">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.973352,51.453645,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Plowden Arms</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.7</li>
+      <li><a href="http://ediblereading.com/2013/11/29/plowden-arms-shiplake/">Review</a></li>
+      <li><a href="http://www.plowdenarmsshiplake.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9029243,51.4981107,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>The Bull Inn</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 8.1</li>
+      <li><a href="http://ediblereading.com/2014/11/07/the-bull-inn-sonning/">Review</a></li>
+      <li><a href="http://bullinnsonning.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.911804,51.473671,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Pappadams</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.2</li>
+      <li><a href="http://ediblereading.com/2014/06/20/pappadams/">Review</a></li>
+      <li><a href="http://www.pappadamsreading.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9655892,51.4546466,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Warwick Arms</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.2</li>
+      <li><a href="http://ediblereading.com/2013/10/04/the-warwick/">Review</a></li>
+      <li><a href="http://www.aroythai.co.uk/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9635408,51.4550965,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Perry's</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 6.7</li>
+      <li><a href="http://ediblereading.com/2013/10/11/perrys/">Review</a></li>
+      <li><a href="">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969072,51.455234,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Blue’s Smokehouse, Bracknell</name>
+      <description><![CDATA[
+      <ul>
+      <li>Score: 7.4</li>
+      <li><a href="http://ediblereading.com/2014/07/25/blues-smokehouse-bracknell/">Review</a></li>
+      <li><a href="http://bluessmokehouse.com/">Website</a></li>
+      </ul>
+    ]]></description>
+      <Point>
+        <coordinates>-0.7519424,51.4168924,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
 </kml>

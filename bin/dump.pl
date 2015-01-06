@@ -7,6 +7,7 @@ use DBIx::Class;
 use XML::Writer;
 use Mojo::JSON 'to_json';
 use Mojo::Asset::File;
+use IO::File ();
 
 use lib qw( ../lib lib );
 use ER::Schema;
@@ -51,6 +52,7 @@ my $writer = XML::Writer->new(
 $writer->xmlDecl("UTF-8");
 $writer->startTag('kml',
   xmlns => 'http://www.opengis.net/kml/2.2');
+$writer->startTag('Document');
 
 $rs->reset;
 while (my $r = $rs->next) {
@@ -61,18 +63,25 @@ while (my $r = $rs->next) {
     $writer->endTag('name');
 
     $writer->startTag('description');
-    $writer->characters( $r->score );
+    $writer->cdata(sprintf q{
+      <ul>
+      <li>Score: %s</li>
+      <li><a href="%s">Review</a></li>
+      <li><a href="%s">Website</a></li>
+      </ul>
+    }, $r->score, $r->review, $r->website);
     $writer->endTag('description');
 
     $writer->startTag('Point');
     $writer->startTag('coordinates');
-    $writer->characters( $r->long .','. $r->lat );
+    $writer->characters( $r->long .','. $r->lat .',0' );
     $writer->endTag('coordinates');
     $writer->endTag('Point');
 
     $writer->endTag('Placemark');
 }
 
+$writer->endTag('Document');
 $writer->endTag('kml');
 $writer->end;
 $kml->close;

@@ -40,13 +40,15 @@ function initialize() {
   var reading = new google.maps.LatLng(lat, lng);
   var mapOptions = {
     zoom: 15,
-    center: reading
+    center: reading,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var ctaLayer = new google.maps.KmlLayer({
-    url: 'file:///users/oliver/git/edible-reading/html/edread.kml'
+    url: 'file:///users/oliver/git/edible-reading/html/edread.kml',
+    preserveViewport: true // preserve our mapOptions center
   });
   ctaLayer.setMap(map);
 }
