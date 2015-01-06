@@ -47,7 +47,7 @@ function initialize() {
   var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
   var ctaLayer = new google.maps.KmlLayer({
-    url: 'file:///users/oliver/git/edible-reading/html/edread.kml',
+    url: 'https://raw.githubusercontent.com/ollyg/edible-reading/master/html/edread.kml',
     preserveViewport: true // preserve our mapOptions center
   });
   ctaLayer.setMap(map);
