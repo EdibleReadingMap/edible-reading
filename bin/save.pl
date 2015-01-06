@@ -10,7 +10,7 @@ use lib qw( ../lib lib );
 use ER::Schema;
 
 binmode STDOUT, ":encoding(UTF-8)";
-my $s = ER::Schema->connect('dbi:SQLite:dbname=./edread.db');
+my $s = ER::Schema->connect('dbi:SQLite:dbname=../edread.db');
 
 while (<>) {
     my $data = decode_json $_ or next;
