@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use DBIx::Class;
+use XML::Writer;
 use Mojo::JSON 'to_json';
 use Mojo::Asset::File;
 
@@ -37,7 +38,42 @@ my $data = {
     features => \@features,
 };
 
-my $file = Mojo::Asset::File->new;
-$file->add_chunk( to_json( $data ) );
-$file->move_to('./edread.geojson');
+my $json = Mojo::Asset::File->new;
+$json->add_chunk( to_json( $data ) );
+$json->move_to('./edread.geojson');
 
+my $kml = Mojo::Asset::File->new;
+my $writer = XML::Writer->new(
+  OUTPUT => $kml->handle,
+  ENCODING => 'utf-8',
+  DATA_MODE => 1,
+  DATA_INDENT => 2,
+);
+$writer->xmlDecl("UTF-8");
+$writer->startTag('kml',
+  xmlns => 'http://www.opengis.net/kml/2.2');
+
+$rs->reset;
+while (my $r = $rs->next) {
+    $writer->startTag('Placemark');
+
+    $writer->startTag('name');
+    $writer->characters( $r->name );
+    $writer->endTag('name');
+
+    $writer->startTag('description');
+    $writer->characters( $r->score );
+    $writer->endTag('description');
+
+    $writer->startTag('Point');
+    $writer->startTag('coordinates');
+    $writer->characters( $r->lat .','. $r->long );
+    $writer->endTag('coordinates');
+    $writer->endTag('Point');
+
+    $writer->endTag('Placemark');
+}
+
+$writer->endTag('kml');
+$writer->end;
+$kml->move_to('html/edread.kml');

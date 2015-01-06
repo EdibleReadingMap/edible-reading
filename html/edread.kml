@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Placemark>
+    <name>Bel &amp; The Dragon</name>
+    <description>6.6</description>
+    <Point>
+      <coordinates>51.455804,-0.958286</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bhel Puri House</name>
+    <description>6.8</description>
+    <Point>
+      <coordinates>51.454813,-0.97039</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CafÃ© YOLK</name>
+    <description>5.2</description>
+    <Point>
+      <coordinates>51.449473,-0.950108</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Coconut Bar &amp; Kitchen</name>
+    <description>6.8</description>
+    <Point>
+      <coordinates>51.454857,-0.974788</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Five Guys - Reading</name>
+    <description>5.5</description>
+    <Point>
+      <coordinates>51.453097,-0.971702</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>La Courbe</name>
+    <description>7.3</description>
+    <Point>
+      <coordinates>51.454634,-0.969569</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Pack Horse</name>
+    <description>5.1</description>
+    <Point>
+      <coordinates>51.4978973,-1.0048352</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Moderation</name>
+    <description>6.6</description>
+    <Point>
+      <coordinates>51.46433,-0.977444</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>My Kitchen</name>
+    <description>7.5</description>
+    <Point>
+      <coordinates>51.456568,-0.972285</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ruchetta</name>
+    <description>7.5</description>
+    <Point>
+      <coordinates>51.411168,-0.833495</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Malmaison Reading</name>
+    <description>6.5</description>
+    <Point>
+      <coordinates>51.457768,-0.972018</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Abbot Cook</name>
+    <description>6.0</description>
+    <Point>
+      <coordinates>51.45278,-0.950586</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Art of Siam</name>
+    <description>7.7</description>
+    <Point>
+      <coordinates>51.454635,-0.969682</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Catherine Wheel</name>
+    <description>7.2</description>
+    <Point>
+      <coordinates>51.521439,-1.136984</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tutus Ethiopian Table</name>
+    <description>5.7</description>
+    <Point>
+      <coordinates>51.452816,-0.968177</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Three Tuns</name>
+    <description>8.4</description>
+    <Point>
+      <coordinates>51.5372426,-0.9057615</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Barts Grill and Restaurant</name>
+    <description>6.2</description>
+    <Point>
+      <coordinates>51.451712,-0.942624</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>BHOJ</name>
+    <description>8.2</description>
+    <Point>
+      <coordinates>51.456702,-0.994971</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Bill's Restaurant</name>
+    <description>6.4</description>
+    <Point>
+      <coordinates>51.454838,-0.97324</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Shaun Dickens At The Boat House</name>
+    <description>6.9</description>
+    <Point>
+      <coordinates>51.53532,-0.899994</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Bull on Bell St</name>
+    <description>5.3</description>
+    <Point>
+      <coordinates>51.539263,-0.904636</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cerise Restaurant &amp; Bar</name>
+    <description>7.9</description>
+    <Point>
+      <coordinates>51.456385,-0.967103</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Chennai Dosa</name>
+    <description>7.0</description>
+    <Point>
+      <coordinates>51.455057,-0.968331</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>China Palace</name>
+    <description>6.3</description>
+    <Point>
+      <coordinates>51.455187,-0.977169</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cote Brasserie</name>
+    <description>7.8</description>
+    <Point>
+      <coordinates>51.453505,-0.968947</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Dolce Vita</name>
+    <description>7.6</description>
+    <Point>
+      <coordinates>51.454221,-0.969535</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Forbury's Restaurant</name>
+    <description>7.1</description>
+    <Point>
+      <coordinates>51.456041,-0.968138</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Faith Kitchen</name>
+    <description>6.4</description>
+    <Point>
+      <coordinates>51.4565587,-0.9941216</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kings Grill</name>
+    <description>8.0</description>
+    <Point>
+      <coordinates>51.454796,-0.967978</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kyrenia</name>
+    <description>8.6</description>
+    <Point>
+      <coordinates>51.467776,-0.972923</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mission Burrito</name>
+    <description>6.7</description>
+    <Point>
+      <coordinates>51.453261,-0.97139</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Mr Chips and Bubble Tea Reading</name>
+    <description>6.5</description>
+    <Point>
+      <coordinates>51.455011,-0.976309</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>House Of Flavours</name>
+    <description>8.3</description>
+    <Point>
+      <coordinates>51.454862,-0.967944</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kei's</name>
+    <description>6.7</description>
+    <Point>
+      <coordinates>51.428485,-0.913796</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>London Street Brasserie</name>
+    <description>6.8</description>
+    <Point>
+      <coordinates>51.453938,-0.968735</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sushimania</name>
+    <description>7.4</description>
+    <Point>
+      <coordinates>51.454416,-0.976985</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sweeney &amp; Todd</name>
+    <description>5.2</description>
+    <Point>
+      <coordinates>51.453693,-0.974452</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pau Brasil</name>
+    <description>6.1</description>
+    <Point>
+      <coordinates>51.446771,-0.965853</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pepe Sale</name>
+    <description>8.3</description>
+    <Point>
+      <coordinates>51.454247,-0.97745</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Picasso tapas restaurant</name>
+    <description>4.1</description>
+    <Point>
+      <coordinates>51.466567,-0.977006</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Quattro Restaurant</name>
+    <description>6.5</description>
+    <Point>
+      <coordinates>51.467906,-0.972789</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>RYND Bar &amp; Kitchen</name>
+    <description>6.2</description>
+    <Point>
+      <coordinates>51.453569,-0.974519</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Sapana Home</name>
+    <description>6.3</description>
+    <Point>
+      <coordinates>51.456389,-0.971976</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tampopo</name>
+    <description>7.6</description>
+    <Point>
+      <coordinates>51.453441,-0.969061</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Tasting House</name>
+    <description>6.8</description>
+    <Point>
+      <coordinates>51.455377,-0.973102</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Thai Corner</name>
+    <description>7.0</description>
+    <Point>
+      <coordinates>51.456435,-0.976365</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Zerodegrees - Microbrewery Restaurant</name>
+    <description>5.4</description>
+    <Point>
+      <coordinates>51.453645,-0.973352</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Plowden Arms</name>
+    <description>8.7</description>
+    <Point>
+      <coordinates>51.4981107,-0.9029243</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>The Bull Inn</name>
+    <description>8.1</description>
+    <Point>
+      <coordinates>51.473671,-0.911804</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pappadams</name>
+    <description>7.2</description>
+    <Point>
+      <coordinates>51.4546466,-0.9655892</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Warwick Arms</name>
+    <description>7.2</description>
+    <Point>
+      <coordinates>51.4550965,-0.9635408</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Perry's</name>
+    <description>6.7</description>
+    <Point>
+      <coordinates>51.455234,-0.969072</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Blueâs Smokehouse, Bracknell</name>
+    <description>7.4</description>
+    <Point>
+      <coordinates>51.4168924,-0.7519424</coordinates>
+    </Point>
+  </Placemark>
+</kml>
