@@ -53,12 +53,35 @@ $writer->xmlDecl("UTF-8");
 $writer->startTag('kml',
   xmlns => 'http://www.opengis.net/kml/2.2');
 $writer->startTag('Document');
+
 $writer->startTag('Style',
-  id => 'restaurantIcon');
+  id => 'greenIcon');
 $writer->startTag('IconStyle');
 $writer->startTag('Icon');
 $writer->startTag('href');
-$writer->characters('http://maps.google.com/mapfiles/kml/pal2/icon32.png');
+$writer->characters('http://maps.google.com/mapfiles/ms/micons/green.png');
+$writer->endTag('href');
+$writer->endTag('Icon');
+$writer->endTag('IconStyle');
+$writer->endTag('Style');
+
+$writer->startTag('Style',
+  id => 'yellowIcon');
+$writer->startTag('IconStyle');
+$writer->startTag('Icon');
+$writer->startTag('href');
+$writer->characters('http://maps.google.com/mapfiles/ms/micons/lightblue.png');
+$writer->endTag('href');
+$writer->endTag('Icon');
+$writer->endTag('IconStyle');
+$writer->endTag('Style');
+
+$writer->startTag('Style',
+  id => 'redIcon');
+$writer->startTag('IconStyle');
+$writer->startTag('Icon');
+$writer->startTag('href');
+$writer->characters('http://maps.google.com/mapfiles/ms/micons/red.png');
 $writer->endTag('href');
 $writer->endTag('Icon');
 $writer->endTag('IconStyle');
@@ -69,7 +92,11 @@ while (my $r = $rs->next) {
     $writer->startTag('Placemark');
 
     $writer->startTag('styleUrl');
-    $writer->characters('#restaurantIcon');
+    $writer->characters(
+      ($r->score < 6.0) ? '#redIcon' :
+      ($r->score > 7.5) ? '#greenIcon'
+                        : '#yellowIcon'
+    );
     $writer->endTag('styleUrl');
 
     $writer->startTag('name');
