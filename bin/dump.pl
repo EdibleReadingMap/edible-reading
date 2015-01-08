@@ -91,11 +91,9 @@ while (my $r = $rs->next) {
 
     $writer->startTag('description');
     $writer->cdata(sprintf q{
-      <ul>
-      <li>Score: %s</li>
-      <li><a href="%s">Review</a></li>
-      <li><a href="%s">Website</a></li>
-      </ul>
+      Score: %s<br/>
+      <a href="%s" target="_blank">Review</a><br/>
+      <a href="%s" target="_blank">Website</a>
     }, $r->score, $r->review, $r->website);
     $writer->endTag('description');
 
