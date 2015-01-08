@@ -2,29 +2,36 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="greenIcon">
+    <Style id="highIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/ms/micons/green.png</href>
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="yellowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/lightblue.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="redIcon">
+    <Style id="lowIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/ms/micons/red.png</href>
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="medlowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/micons/blue.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medhighIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/micons/lightblue.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Bel &amp; The Dragon</name>
       <description><![CDATA[
       <ul>
@@ -38,7 +45,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Bhel Puri House</name>
       <description><![CDATA[
       <ul>
@@ -52,7 +59,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Café YOLK</name>
       <description><![CDATA[
       <ul>
@@ -66,7 +73,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Coconut Bar &amp; Kitchen</name>
       <description><![CDATA[
       <ul>
@@ -80,7 +87,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Five Guys - Reading</name>
       <description><![CDATA[
       <ul>
@@ -94,7 +101,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>La Courbe</name>
       <description><![CDATA[
       <ul>
@@ -108,7 +115,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>The Pack Horse</name>
       <description><![CDATA[
       <ul>
@@ -122,7 +129,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>The Moderation</name>
       <description><![CDATA[
       <ul>
@@ -136,7 +143,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>My Kitchen</name>
       <description><![CDATA[
       <ul>
@@ -150,7 +157,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>Ruchetta</name>
       <description><![CDATA[
       <ul>
@@ -164,7 +171,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Malmaison Reading</name>
       <description><![CDATA[
       <ul>
@@ -178,7 +185,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>The Abbot Cook</name>
       <description><![CDATA[
       <ul>
@@ -192,7 +199,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>Art of Siam</name>
       <description><![CDATA[
       <ul>
@@ -206,7 +213,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>The Catherine Wheel</name>
       <description><![CDATA[
       <ul>
@@ -220,7 +227,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Tutus Ethiopian Table</name>
       <description><![CDATA[
       <ul>
@@ -234,7 +241,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>Three Tuns</name>
       <description><![CDATA[
       <ul>
@@ -248,7 +255,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Barts Grill and Restaurant</name>
       <description><![CDATA[
       <ul>
@@ -262,7 +269,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>BHOJ</name>
       <description><![CDATA[
       <ul>
@@ -276,7 +283,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Bill's Restaurant</name>
       <description><![CDATA[
       <ul>
@@ -290,7 +297,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Shaun Dickens At The Boat House</name>
       <description><![CDATA[
       <ul>
@@ -304,7 +311,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>The Bull on Bell St</name>
       <description><![CDATA[
       <ul>
@@ -318,7 +325,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>Cerise Restaurant &amp; Bar</name>
       <description><![CDATA[
       <ul>
@@ -332,7 +339,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Chennai Dosa</name>
       <description><![CDATA[
       <ul>
@@ -346,7 +353,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>China Palace</name>
       <description><![CDATA[
       <ul>
@@ -360,7 +367,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>Cote Brasserie</name>
       <description><![CDATA[
       <ul>
@@ -374,7 +381,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>Dolce Vita</name>
       <description><![CDATA[
       <ul>
@@ -388,7 +395,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Forbury's Restaurant</name>
       <description><![CDATA[
       <ul>
@@ -402,7 +409,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Faith Kitchen</name>
       <description><![CDATA[
       <ul>
@@ -416,7 +423,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>Kings Grill</name>
       <description><![CDATA[
       <ul>
@@ -430,7 +437,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>Kyrenia</name>
       <description><![CDATA[
       <ul>
@@ -444,7 +451,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Mission Burrito</name>
       <description><![CDATA[
       <ul>
@@ -458,7 +465,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Mr Chips and Bubble Tea Reading</name>
       <description><![CDATA[
       <ul>
@@ -472,7 +479,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>House Of Flavours</name>
       <description><![CDATA[
       <ul>
@@ -486,7 +493,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Kei's</name>
       <description><![CDATA[
       <ul>
@@ -500,7 +507,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>London Street Brasserie</name>
       <description><![CDATA[
       <ul>
@@ -514,7 +521,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Sushimania</name>
       <description><![CDATA[
       <ul>
@@ -528,7 +535,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Sweeney &amp; Todd</name>
       <description><![CDATA[
       <ul>
@@ -542,7 +549,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Pau Brasil</name>
       <description><![CDATA[
       <ul>
@@ -556,7 +563,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>Pepe Sale</name>
       <description><![CDATA[
       <ul>
@@ -570,7 +577,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Picasso tapas restaurant</name>
       <description><![CDATA[
       <ul>
@@ -584,7 +591,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Quattro Restaurant</name>
       <description><![CDATA[
       <ul>
@@ -598,7 +605,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>RYND Bar &amp; Kitchen</name>
       <description><![CDATA[
       <ul>
@@ -612,7 +619,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Sapana Home</name>
       <description><![CDATA[
       <ul>
@@ -626,7 +633,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#medhighIcon</styleUrl>
       <name>Tampopo</name>
       <description><![CDATA[
       <ul>
@@ -640,7 +647,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>The Tasting House</name>
       <description><![CDATA[
       <ul>
@@ -654,7 +661,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Thai Corner</name>
       <description><![CDATA[
       <ul>
@@ -668,7 +675,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#redIcon</styleUrl>
+      <styleUrl>#lowIcon</styleUrl>
       <name>Zerodegrees - Microbrewery Restaurant</name>
       <description><![CDATA[
       <ul>
@@ -682,7 +689,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>Plowden Arms</name>
       <description><![CDATA[
       <ul>
@@ -696,7 +703,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#greenIcon</styleUrl>
+      <styleUrl>#highIcon</styleUrl>
       <name>The Bull Inn</name>
       <description><![CDATA[
       <ul>
@@ -710,7 +717,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Pappadams</name>
       <description><![CDATA[
       <ul>
@@ -724,7 +731,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Warwick Arms</name>
       <description><![CDATA[
       <ul>
@@ -738,7 +745,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Perry's</name>
       <description><![CDATA[
       <ul>
@@ -752,7 +759,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#yellowIcon</styleUrl>
+      <styleUrl>#medlowIcon</styleUrl>
       <name>Blue’s Smokehouse, Bracknell</name>
       <description><![CDATA[
       <ul>

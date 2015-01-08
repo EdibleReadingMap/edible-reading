@@ -54,38 +54,24 @@ $writer->startTag('kml',
   xmlns => 'http://www.opengis.net/kml/2.2');
 $writer->startTag('Document');
 
-$writer->startTag('Style',
-  id => 'greenIcon');
-$writer->startTag('IconStyle');
-$writer->startTag('Icon');
-$writer->startTag('href');
-$writer->characters('http://maps.google.com/mapfiles/ms/micons/green.png');
-$writer->endTag('href');
-$writer->endTag('Icon');
-$writer->endTag('IconStyle');
-$writer->endTag('Style');
+my %pins = (
+  lowIcon => 'red',
+  medlowIcon => 'blue',
+  medhighIcon => 'lightblue',
+  highIcon => 'green',
+);
 
-$writer->startTag('Style',
-  id => 'yellowIcon');
-$writer->startTag('IconStyle');
-$writer->startTag('Icon');
-$writer->startTag('href');
-$writer->characters('http://maps.google.com/mapfiles/ms/micons/lightblue.png');
-$writer->endTag('href');
-$writer->endTag('Icon');
-$writer->endTag('IconStyle');
-$writer->endTag('Style');
-
-$writer->startTag('Style',
-  id => 'redIcon');
-$writer->startTag('IconStyle');
-$writer->startTag('Icon');
-$writer->startTag('href');
-$writer->characters('http://maps.google.com/mapfiles/ms/micons/red.png');
-$writer->endTag('href');
-$writer->endTag('Icon');
-$writer->endTag('IconStyle');
-$writer->endTag('Style');
+while (my ($id, $pin) = each %pins) {
+    $writer->startTag('Style', id => $id);
+    $writer->startTag('IconStyle');
+    $writer->startTag('Icon');
+    $writer->startTag('href');
+    $writer->characters("http://maps.google.com/mapfiles/ms/micons/$pin.png");
+    $writer->endTag('href');
+    $writer->endTag('Icon');
+    $writer->endTag('IconStyle');
+    $writer->endTag('Style');
+}
 
 $rs->reset;
 while (my $r = $rs->next) {
@@ -93,9 +79,9 @@ while (my $r = $rs->next) {
 
     $writer->startTag('styleUrl');
     $writer->characters(
-      ($r->score < 6.0) ? '#redIcon' :
-      ($r->score > 7.5) ? '#greenIcon'
-                        : '#yellowIcon'
+      ($r->score >= 8.0) ? '#highIcon' :
+      ($r->score >= 7.5) ? '#medhighIcon' :
+      ($r->score >= 6.5) ? '#medlowIcon' : '#lowIcon'
     );
     $writer->endTag('styleUrl');
 
