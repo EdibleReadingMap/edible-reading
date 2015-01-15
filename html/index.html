@@ -11,6 +11,20 @@
         margin: 0px;
         padding: 0px;
       }
+      .balloon {
+        position: relative;
+      }
+      .balloon #arrow {
+        width: 0;
+        height: 0;
+        display: block;
+        border-width: 15px 6px 0px 6px;
+        border-color: azure transparent transparent transparent;
+        border-style: solid;
+        opacity: 0.95;
+        position: absolute;
+        left: 0px;
+      }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true&v=3.exp"></script>
     <script src="https://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
@@ -50,16 +64,16 @@ function initialize() {
   var kmllayer = new google.maps.KmlLayer({
     url: 'https://raw.githubusercontent.com/ollyg/edible-reading/master/html/edread.kml'
    ,preserveViewport: true // preserve our mapOptions center
-   ,map: edread
    ,suppressInfoWindows: true
+   ,map: edread
   });
 
   var infobox = new InfoBox({
     boxStyle: {
-      background: 'white'
+      background: 'azure'
      ,opacity: 0.90
      ,'white-space': 'nowrap'
-     ,margin: '3px'
+     ,margin: '3px 3px 0px -10px'
      ,padding: '3px 15px 3px 3px'
      ,borderRadius: '5px'
     }
@@ -69,15 +83,18 @@ function initialize() {
   });
 
   google.maps.event.addListener(kmllayer, 'click', function(kmlEvent) {
-    var layer = document.createElement('div');
-    layer.innerHtml = '' + kmlEvent.featureData.infoWindowHtml;
+    var content = document.createElement('div');
+    var contentjq = $(content);
 
     infobox.close();
     infobox.setOptions({
       pixelOffset: kmlEvent.pixelOffset
      ,position: kmlEvent.latLng
-     ,content: layer
+     ,content: content
     });
+
+    contentjq.addClass('balloon')
+             .html(kmlEvent.featureData.infoWindowHtml + '<div id="arrow"></div>');
     infobox.open(edread);
   });
 }
