@@ -17,15 +17,15 @@
     <script>
 
 var lat = 51.4542
-    ,lng = -0.9731;
+   ,lng = -0.9731;
 
 function success(position) {
   var latmin = 51.411168
-      ,latmax = 51.539263
-      ,lngmin = -1.136984
-      ,lngmax = -0.7519424
-      ,mylat  = position.coords.latitude
-      ,mylng  = position.coords.longitude;
+     ,latmax = 51.539263
+     ,lngmin = -1.136984
+     ,lngmax = -0.7519424
+     ,mylat  = position.coords.latitude
+     ,mylng  = position.coords.longitude;
 
   if (mylat > latmin && mylat < latmax) {
     lat = mylat;
@@ -41,25 +41,38 @@ function initialize() {
   var reading = new google.maps.LatLng(lat, lng);
   var mapOptions = {
     zoom: 15
-    ,center: reading
-    ,mapTypeId: google.maps.MapTypeId.ROADMAP
+   ,center: reading
+   ,mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
   var edread = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   var kmllayer = new google.maps.KmlLayer({
     url: 'https://raw.githubusercontent.com/ollyg/edible-reading/master/html/edread.kml'
-    ,preserveViewport: true // preserve our mapOptions center
-    ,map: edread
-    ,suppressInfoWindows: true
+   ,preserveViewport: true // preserve our mapOptions center
+   ,map: edread
+   ,suppressInfoWindows: true
   });
 
-  var infobox = new InfoBox();
+  var infobox = new InfoBox({
+    boxStyle: {
+      background: 'white'
+     ,opacity: 0.90
+     ,'white-space': 'nowrap'
+     ,margin: '3px'
+     ,padding: '3px 15px 3px 3px'
+    }
+   ,closeBoxMargin: '1px -11px 3px 3px'
+   ,alignBottom: true
+   ,infoBoxClearance: new google.maps.Size(1, 1)
+  });
 
   google.maps.event.addListener(kmllayer, 'click', function(kmlEvent) {
-    console.log(kmlEvent);
     infobox.close();
-    infobox.setPosition(kmlEvent.latLng);
-    infobox.setContent(kmlEvent.featureData.infoWindowHtml);
+    infobox.setOptions({
+      pixelOffset: kmlEvent.pixelOffset
+     ,position: kmlEvent.latLng
+     ,content: kmlEvent.featureData.infoWindowHtml
+    });
     infobox.open(edread);
   });
 }
