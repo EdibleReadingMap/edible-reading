@@ -14,6 +14,7 @@
     </style>
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true&v=3.exp"></script>
     <script src="https://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
 
 var lat = 51.4542
@@ -60,6 +61,7 @@ function initialize() {
      ,'white-space': 'nowrap'
      ,margin: '3px'
      ,padding: '3px 15px 3px 3px'
+     ,borderRadius: '5px'
     }
    ,closeBoxMargin: '1px -11px 3px 3px'
    ,alignBottom: true
@@ -67,11 +69,14 @@ function initialize() {
   });
 
   google.maps.event.addListener(kmllayer, 'click', function(kmlEvent) {
+    var layer = document.createElement('div');
+    layer.innerHtml = '' + kmlEvent.featureData.infoWindowHtml;
+
     infobox.close();
     infobox.setOptions({
       pixelOffset: kmlEvent.pixelOffset
      ,position: kmlEvent.latLng
-     ,content: kmlEvent.featureData.infoWindowHtml
+     ,content: layer
     });
     infobox.open(edread);
   });
