@@ -2,7 +2,7 @@
 
 [Edible Reading](http://ediblereading.com/) is a blog of restaurant/cafe food reviews on venues in the area of Reading, Berkshire, UK. The code in this repo scrapes info from the website, geocodes the venues, puts the results into a database, then produces [GeoJSON](http://en.wikipedia.org/wiki/GeoJSON) and [KML](https://developers.google.com/kml/documentation/?csw=1) files.
 
-Github kindly renders the GeoJSON [map](https://github.com/ollyg/edible-reading/blob/master/edread.geojson) (desktop browsers only). The KML file will be available in a Google Map very soon.
+Github kindly renders the GeoJSON [map](https://github.com/ollyg/edible-reading/blob/master/edread.geojson) (desktop browsers only). The KML file is available in a [Google map](http://go.edreadmap.com/).
 
 # Workflow
 
