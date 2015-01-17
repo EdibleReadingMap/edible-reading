@@ -55,7 +55,7 @@ $writer->startTag('kml',
 $writer->startTag('Document');
 
 my %pins = (
-  lowIcon => 'red',
+  lowIcon => 'pink',
   medlowIcon => 'blue',
   medhighIcon => 'lightblue',
   highIcon => 'green',
