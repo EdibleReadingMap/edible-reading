@@ -25,7 +25,7 @@ while (<>) {
     $r->date = $1;
 
     foreach my $tag ($page->find('div.post-extras a')->each) {
-      push $r->tags, $tag->text;
+      push @{$r->tags}, ($tag->text);
     }
 
     foreach my $score ($page->find('div.post-entry p > strong, b')->each) {
