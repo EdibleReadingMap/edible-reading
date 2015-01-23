@@ -28,7 +28,12 @@ At home I used PostgreSQL but I've included an SQLite3 copy of the database in t
 
 # Dependencies
 
-I think you'll need [Mojolicious](https://metacpan.org/pod/Mojolicious), [DBIx::Class](https://metacpan.org/pod/DBIx::Class) and [XML::Writer](https://metacpan.org/pod/XML::Writer). I may rewrite it in Python one day, but I wanted to play with Mojo and this was a good excuse.
+I think you'll need [Mojolicious](https://metacpan.org/pod/Mojolicious),
+[IO::Socket::SSL](https://metacpan.org/pod/IO::Socket::SSL),
+[Struct::Dumb](https://metacpan.org/pod/Struct::Dumb),
+[DBIx::Class](https://metacpan.org/pod/DBIx::Class),
+and [XML::Writer](https://metacpan.org/pod/XML::Writer).
+I may rewrite it in Python one day, but I wanted to play with Mojo and this was a good excuse.
 
 # Author
 
