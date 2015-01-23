@@ -690,5 +690,17 @@
         <coordinates>-0.612974,51.477205,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Jamie's Italian - Reading</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="http://ediblereading.com/2015/01/23/jamies-italian/" target="_blank">Review</a><br/>
+      <a href="http://www.jamieoliver.com/italian/restaurants/reading" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971009,51.452852,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
