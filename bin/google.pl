@@ -9,6 +9,9 @@ use Mojo::JSON qw/encode_json decode_json/;
 use Mojo::UserAgent;
 use Mojo::URL;
 
+die "Please set Google API key in GOOGLE_API_KEY environment variable.\n"
+  if not $ENV{GOOGLE_API_KEY};
+
 my $ua = Mojo::UserAgent->new;
 struct Review => [qw/ name address score website date review tags lat long /],
   named_constructor => 1;
