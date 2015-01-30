@@ -702,5 +702,17 @@
         <coordinates>-0.971009,51.452852,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Mangal</name>
+      <description><![CDATA[
+      Score: 6.3<br/>
+      <a href="http://ediblereading.com/2015/01/30/mangal/" target="_blank">Review</a><br/>
+      <a href="http://www.mangalreading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.974524,51.454844,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
