@@ -12,13 +12,9 @@ use ER::Schema;
 binmode STDOUT, ":encoding(UTF-8)";
 my $s = ER::Schema->connect('dbi:SQLite:dbname=../edread.db');
 
-my $quiet =
-  ((scalar @ARGV and $ARGV[0]) ? 1 : 0);
-
 while (<>) {
     my $data = decode_json $_ or next;
-    print "saving: ", $data->{name}, "\n"
-      unless $quiet;
+    # print "saving: ", $data->{name}, "\n";
     $s->resultset('Review')->update_or_create(%$data);
 }
 
