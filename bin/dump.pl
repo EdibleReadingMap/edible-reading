@@ -94,7 +94,7 @@ while (my $r = $rs->next) {
       Score: %s<br/>
       <a href="%s" target="_blank">Review</a><br/>
       <a href="%s" target="_blank">Website</a>
-    }, $r->score, $r->review, $r->website);
+    }, $r->score, $r->review, ($r->website || ''));
     $writer->endTag('description');
 
     $writer->startTag('Point');
