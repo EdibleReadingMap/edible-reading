@@ -714,5 +714,17 @@
         <coordinates>-0.974524,51.454844,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Oakford Social Club</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="http://ediblereading.com/2015/02/06/oakford-social-club/" target="_blank">Review</a><br/>
+      <a href="http://www.oakfordsocialclub.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971662,51.457865,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
