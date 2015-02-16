@@ -726,5 +726,17 @@
         <coordinates>-0.971662,51.457865,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Alto Lounge</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="http://ediblereading.com/2015/02/13/alto-lounge/" target="_blank">Review</a><br/>
+      <a href="http://www.thelounges.co.uk/alto-lounge/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.974918,51.467804,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
