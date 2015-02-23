@@ -738,5 +738,17 @@
         <coordinates>-0.974918,51.467804,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Bejing Noodle House</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="http://ediblereading.com/2015/02/20/beijing-noodle-house/" target="_blank">Review</a><br/>
+      <a href="http://www.hongbeijingreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.975638,51.456032,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
