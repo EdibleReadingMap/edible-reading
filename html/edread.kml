@@ -750,5 +750,17 @@
         <coordinates>-0.975638,51.456032,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Caversham House Lodge</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="http://ediblereading.com/2015/02/27/lincoln-coffee-house/" target="_blank">Review</a><br/>
+      <a href="http://lincolncoffeehouse.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.97678,51.463854,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
