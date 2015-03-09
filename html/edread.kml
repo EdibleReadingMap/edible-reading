@@ -762,5 +762,17 @@
         <coordinates>-0.97678,51.463854,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Lyndhurst</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="http://ediblereading.com/2015/03/06/the-lyndhurst/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/pages/The-Lyndhurst/519640051447288?fref=ts" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.961504,51.453605,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
