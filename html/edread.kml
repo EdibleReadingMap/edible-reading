@@ -774,5 +774,17 @@
         <coordinates>-0.961504,51.453605,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Baskerville</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="http://ediblereading.com/2015/03/13/baskerville-shiplake/" target="_blank">Review</a><br/>
+      <a href="http://www.thebaskerville.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.883638,51.511244,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
