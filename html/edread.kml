@@ -798,5 +798,17 @@
         <coordinates>-0.975612,51.463195,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>River Spice</name>
+      <description><![CDATA[
+      Score: 6.1<br/>
+      <a href="http://ediblereading.com/2015/03/27/river-spice/" target="_blank">Review</a><br/>
+      <a href="http://www.riverspicereading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.976932,51.464847,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
