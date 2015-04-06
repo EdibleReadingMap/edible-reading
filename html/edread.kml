@@ -810,5 +810,17 @@
         <coordinates>-0.976932,51.464847,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>L'Ortolan</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="http://ediblereading.com/2015/04/03/lortolan/" target="_blank">Review</a><br/>
+      <a href="http://www.lortolan.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.954076,51.408876,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
