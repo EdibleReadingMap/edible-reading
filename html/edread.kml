@@ -822,5 +822,17 @@
         <coordinates>-0.954076,51.408876,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Artigiano Coffee Bar</name>
+      <description><![CDATA[
+      Score: 5.3<br/>
+      <a href="http://ediblereading.com/2015/04/10/artigiano/" target="_blank">Review</a><br/>
+      <a href="http://www.artigiano.uk.com/reading.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.974092,51.454809,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
