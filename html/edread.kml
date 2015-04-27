@@ -846,5 +846,17 @@
         <coordinates>-1.119232,51.278534,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Reformation</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="http://ediblereading.com/2015/04/24/reformation-gallowstree-common/" target="_blank">Review</a><br/>
+      <a href="http://www.therefpub.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.006649,51.516444,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
