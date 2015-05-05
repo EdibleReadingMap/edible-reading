@@ -10,7 +10,7 @@ Something like the following:
 
 ````
 $ cd bin
-$ links.pl > links
+$ links.pl | sort > links
 $ cat links | parse.pl | google.pl | save.pl
 $ cd ..
 $ bin/dump.pl
