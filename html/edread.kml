@@ -2,20 +2,6 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="highIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/green.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="lowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/pink.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="medlowIcon">
       <IconStyle>
         <Icon>
@@ -23,10 +9,24 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="highIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/micons/green.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="medhighIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/ms/micons/lightblue.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="lowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/micons/pink.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -836,14 +836,14 @@
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>Limes Park</name>
+      <name>Siblings Home</name>
       <description><![CDATA[
       Score: 8.0<br/>
       <a href="http://ediblereading.com/2015/04/17/siblings-home/" target="_blank">Review</a><br/>
       <a href="http://www.siblingshome.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-1.119232,51.278534,0</coordinates>
+        <coordinates>-0.9745646,51.4686272,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
