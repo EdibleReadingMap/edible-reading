@@ -2,13 +2,6 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="medlowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/blue.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="highIcon">
       <IconStyle>
         <Icon>
@@ -16,17 +9,24 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="medhighIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/lightblue.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="lowIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/ms/micons/pink.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medlowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/micons/blue.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medhighIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/ms/micons/lightblue.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -856,6 +856,18 @@
     ]]></description>
       <Point>
         <coordinates>-1.006649,51.516444,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>O Beirão</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="http://ediblereading.com/2015/05/08/o-beirao/" target="_blank">Review</a><br/>
+      <a href="http://obeirao.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.966989,51.43986,0</coordinates>
       </Point>
     </Placemark>
   </Document>
