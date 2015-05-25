@@ -882,5 +882,17 @@
         <coordinates>-0.90231,51.537618,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Cafe Madras</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="http://ediblereading.com/2015/05/22/cafe-madras/" target="_blank">Review</a><br/>
+      <a href="http://cafemadras.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9649,51.444641,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
