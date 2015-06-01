@@ -894,5 +894,17 @@
         <coordinates>-0.9649,51.444641,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Al Fassia</name>
+      <description><![CDATA[
+      Score: 8.2<br/>
+      <a href="http://ediblereading.com/2015/05/29/al-fassia-windsor/" target="_blank">Review</a><br/>
+      <a href="http://www.alfassiarestaurant.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.612244,51.479301,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
