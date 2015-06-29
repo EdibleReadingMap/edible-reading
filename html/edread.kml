@@ -918,5 +918,17 @@
         <coordinates>,,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Bali Lounge</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="http://ediblereading.com/2015/06/26/bali-lounge/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.964124,51.4549,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
