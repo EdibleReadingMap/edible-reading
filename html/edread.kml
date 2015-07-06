@@ -930,5 +930,17 @@
         <coordinates>-0.964124,51.4549,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>I Love Paella</name>
+      <description><![CDATA[
+      Score: 8.2<br/>
+      <a href="http://ediblereading.com/2015/07/03/i-love-paella/" target="_blank">Review</a><br/>
+      <a href="http://ilovepaella.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>,,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
