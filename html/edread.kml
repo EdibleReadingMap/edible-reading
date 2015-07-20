@@ -954,5 +954,17 @@
         <coordinates>-0.97006,51.507163,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Miahs Garden Of Gulab</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="http://ediblereading.com/2015/07/17/miahs-garden-of-gulab/" target="_blank">Review</a><br/>
+      <a href="http://www.miahs.co.uk/restaurants/garden_of_gulab/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9384,51.449339,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
