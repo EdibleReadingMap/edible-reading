@@ -978,5 +978,17 @@
         <coordinates>-0.971424,51.456152,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Suwanna</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="http://ediblereading.com/2015/07/31/thai-table/" target="_blank">Review</a><br/>
+      <a href="http://www.suwannathai.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.97714,51.467331,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
