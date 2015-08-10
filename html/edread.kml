@@ -990,5 +990,17 @@
         <coordinates>-0.97714,51.467331,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Oracle Shopping Centre</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="http://ediblereading.com/2015/08/07/cau/" target="_blank">Review</a><br/>
+      <a href="http://www.caurestaurants.com/book-a-table/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971378,51.453614,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
