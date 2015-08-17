@@ -1002,5 +1002,17 @@
         <coordinates>-0.971378,51.453614,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Bakery House</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="http://ediblereading.com/2015/08/14/bakery-house/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968064,51.451659,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
