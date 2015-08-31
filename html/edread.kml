@@ -1026,5 +1026,17 @@
         <coordinates>-0.901237,51.537423,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Revolution Bar Reading</name>
+      <description><![CDATA[
+      Score: 7.1<br/>
+      <a href="http://ediblereading.com/2015/08/28/revolution/" target="_blank">Review</a><br/>
+      <a href="http://www.revolution-bars.co.uk/bar/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971993,51.457391,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
