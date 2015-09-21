@@ -1038,5 +1038,17 @@
         <coordinates>-0.971993,51.457391,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Oracle Shopping Centre</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="http://ediblereading.com/2015/09/18/manhattan-coffee-club/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/manhattancoffeeclub" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971378,51.453614,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
