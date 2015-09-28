@@ -1050,5 +1050,17 @@
         <coordinates>-0.971378,51.453614,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Fisherman's Cottage Riverside Pub &amp; Kitchen</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="http://ediblereading.com/2015/09/25/fishermans-cottage/" target="_blank">Review</a><br/>
+      <a href="http://www.thefishermanscottagereading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.95522,51.455423,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
