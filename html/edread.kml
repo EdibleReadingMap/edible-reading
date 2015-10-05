@@ -1062,5 +1062,17 @@
         <coordinates>-0.95522,51.455423,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Wolf</name>
+      <description><![CDATA[
+      Score: 5.6<br/>
+      <a href="http://ediblereading.com/2015/10/02/wolf/" target="_blank">Review</a><br/>
+      <a href="http://www.wolfstreetfood.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>,,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
