@@ -1074,5 +1074,17 @@
         <coordinates>,,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Square Henley</name>
+      <description><![CDATA[
+      Score: 4.9<br/>
+      <a href="http://ediblereading.com/2015/10/09/the-square-henley/" target="_blank">Review</a><br/>
+      <a href="http://thesquarehenley.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.905213,51.537538,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
