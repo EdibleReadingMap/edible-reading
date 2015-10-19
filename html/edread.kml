@@ -1086,5 +1086,17 @@
         <coordinates>-0.905213,51.537538,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>itsu</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="http://ediblereading.com/2015/10/16/itsu/" target="_blank">Review</a><br/>
+      <a href="https://www.itsu.com/locations/shops/reading_UK69.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.972087,51.456783,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
