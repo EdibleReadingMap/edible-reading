@@ -1098,5 +1098,17 @@
         <coordinates>-0.972087,51.456783,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>The Bell Inn</name>
+      <description><![CDATA[
+      Score: 8.2<br/>
+      <a href="http://ediblereading.com/2015/10/23/the-bell-waltham-st-lawrence/" target="_blank">Review</a><br/>
+      <a href="http://thebellwalthamstlawrence.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.806479,51.485058,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
