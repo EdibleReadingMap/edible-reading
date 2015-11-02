@@ -1110,5 +1110,17 @@
         <coordinates>-0.806479,51.485058,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Valpy Street</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="http://ediblereading.com/2015/10/30/valpy-street/" target="_blank">Review</a><br/>
+      <a href="http://www.valpys.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969147,51.457302,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
