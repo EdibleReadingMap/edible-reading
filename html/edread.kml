@@ -1122,5 +1122,17 @@
         <coordinates>-0.969147,51.457302,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Brebis</name>
+      <description><![CDATA[
+      Score: 9.1<br/>
+      <a href="http://ediblereading.com/2015/11/06/brebis-newbury/" target="_blank">Review</a><br/>
+      <a href="http://www.brebis.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.3246312,51.4005651,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
