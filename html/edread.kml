@@ -1146,5 +1146,17 @@
         <coordinates>-0.9380466,51.4489986,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Crown</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="http://ediblereading.com/2015/11/20/the-crown-playhatch/" target="_blank">Review</a><br/>
+      <a href="http://www.thecrown.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9355022,51.4798762,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
