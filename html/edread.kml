@@ -1064,14 +1064,14 @@
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>Wolf</name>
+      <name>Wolf - Italian Street Food</name>
       <description><![CDATA[
       Score: 5.6<br/>
       <a href="http://ediblereading.com/2015/10/02/wolf/" target="_blank">Review</a><br/>
       <a href="http://www.wolfstreetfood.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>,,0</coordinates>
+        <coordinates>-0.9733145,51.4554862,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>

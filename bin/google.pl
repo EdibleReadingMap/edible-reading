@@ -49,7 +49,7 @@ while (<>) {
       website => $r->website,
       date    => $r->date,
       review  => $r->review,
-      tags    => $r->tags,
+      tags    => (encode_json $r->tags),
       lat     => $r->lat,
       long    => $r->long,
       gdata   => (encode_json $p),
