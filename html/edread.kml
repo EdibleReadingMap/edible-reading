@@ -1158,5 +1158,17 @@
         <coordinates>-0.9355022,51.4798762,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Piwnica Pub</name>
+      <description><![CDATA[
+      Score: 4.7<br/>
+      <a href="http://ediblereading.com/2015/11/27/piwnica-pub/" target="_blank">Review</a><br/>
+      <a href="http://www.piwnicapub.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9559541,51.4520819,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
