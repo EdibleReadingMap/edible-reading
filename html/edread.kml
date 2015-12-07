@@ -1170,5 +1170,17 @@
         <coordinates>-0.9559541,51.4520819,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Miller &amp; Carter Oracle</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="http://ediblereading.com/2015/12/04/miller-carter/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9694476,51.4532728,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
