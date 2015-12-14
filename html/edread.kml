@@ -1182,5 +1182,17 @@
         <coordinates>-0.9694476,51.4532728,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Picnic Foods</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="http://ediblereading.com/2015/12/11/picnic/" target="_blank">Review</a><br/>
+      <a href="http://www.picnicfoods.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9698211,51.4552464,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
