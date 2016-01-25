@@ -1194,5 +1194,17 @@
         <coordinates>-0.9698211,51.4552464,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Bluegrass BBQ</name>
+      <description><![CDATA[
+      Score: 7.1<br/>
+      <a href="http://ediblereading.com/2016/01/22/bluegrass-bbq/" target="_blank">Review</a><br/>
+      <a href="http://bluegrass-bbq.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9725099,51.4542088,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
