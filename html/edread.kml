@@ -1206,5 +1206,17 @@
         <coordinates>-0.9725099,51.4542088,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Happy Diner</name>
+      <description><![CDATA[
+      Score: 6.2<br/>
+      <a href="http://ediblereading.com/2016/01/29/happy-diner/" target="_blank">Review</a><br/>
+      <a href="http://happydiner-reading.webs.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9716989,51.4682503,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
