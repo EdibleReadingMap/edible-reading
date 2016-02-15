@@ -1230,5 +1230,17 @@
         <coordinates>-0.9690383,51.4547135,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Kobeda Palace</name>
+      <description><![CDATA[
+      Score: 7.4<br/>
+      <a href="http://ediblereading.com/2016/02/12/kobeda-palace/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/pages/Kobeda-Palace/588327924595489?fref=ts" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.996078,51.456819,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
