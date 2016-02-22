@@ -1242,5 +1242,17 @@
         <coordinates>-0.996078,51.456819,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Jessy's Cafe &amp; Restaurant</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="http://ediblereading.com/2016/02/19/jessys-wokingham/" target="_blank">Review</a><br/>
+      <a href="http://www.jessys.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.835449,51.408857,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
