@@ -1254,5 +1254,17 @@
         <coordinates>-0.835449,51.408857,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Flowing Spring</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="http://ediblereading.com/2016/02/26/the-flowing-spring-playhatch/" target="_blank">Review</a><br/>
+      <a href="http://theflowingspringpub.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.92676,51.48388,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
