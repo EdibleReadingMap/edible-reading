@@ -1266,5 +1266,17 @@
         <coordinates>-0.9262434,51.4847339,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Pachangas Mexican Restaurant</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="http://ediblereading.com/2016/01/15/pachangas-henley/" target="_blank">Review</a><br/>
+      <a href="http://www.pachangas.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9041332,51.5363744,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
