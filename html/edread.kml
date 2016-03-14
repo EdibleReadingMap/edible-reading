@@ -1278,5 +1278,17 @@
         <coordinates>-0.9041332,51.5363744,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>COSMO</name>
+      <description><![CDATA[
+      Score: 5.0<br/>
+      <a href="http://ediblereading.com/2016/03/11/cosmo/" target="_blank">Review</a><br/>
+      <a href="http://www.cosmo-restaurants.co.uk/locations/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9737086,51.4568337,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
