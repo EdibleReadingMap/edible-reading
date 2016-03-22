@@ -1290,5 +1290,17 @@
         <coordinates>-0.9737086,51.4568337,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Coppa Club</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="http://ediblereading.com/2016/03/18/coppa-club-sonning/" target="_blank">Review</a><br/>
+      <a href="http://coppaclub.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.912884,51.475161,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
