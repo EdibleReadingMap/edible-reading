@@ -1302,5 +1302,17 @@
         <coordinates>-0.912884,51.475161,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Sushi Maki</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="http://ediblereading.com/2016/03/25/the-sushi-maki-newbury/" target="_blank">Review</a><br/>
+      <a href="http://www.thesushimaki.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.3234244,51.4008152,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
