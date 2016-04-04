@@ -1314,5 +1314,17 @@
         <coordinates>-1.3234244,51.4008152,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Handmade Burger Co. Reading</name>
+      <description><![CDATA[
+      Score: 5.3<br/>
+      <a href="http://ediblereading.com/2016/04/01/handmade-burger-company/" target="_blank">Review</a><br/>
+      <a href="http://handmadeburger.co.uk/our-restaurants/find-a-restaurant/handmade-burger-co-reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968845,51.4536313,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
