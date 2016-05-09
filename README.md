@@ -16,7 +16,7 @@ $ cd ..
 $ bin/dump.pl
 ````
 
-Yes, the `cat` is intentional; forces correct encoding.
+Yes, the `cat` is intentional; forces correct encoding in some shells.
 
 # Google Locations and Places
 
