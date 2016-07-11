@@ -7,7 +7,7 @@ use Mojo::UserAgent;
 
 my $seen = {};
 my $ua = Mojo::UserAgent->new;
-my $list = 'http://ediblereading.com/the-list-alphabetical/';
+my $list = 'https://ediblereading.com/the-list-alphabetical/';
 
 my @links = $ua->get($list)->res->dom->find('div.post-entry a')->each;
 
