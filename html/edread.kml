@@ -1326,5 +1326,161 @@
         <coordinates>-0.968845,51.4536313,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Dhaulagiri kitchen cafe &amp; restaurant</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="https://ediblereading.com/2016/04/08/dhaulagiri-kitchen/" target="_blank">Review</a><br/>
+      <a href="http://www.dhuaulgirikitchen.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9670188,51.439853,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Sanpa Farmshop</name>
+      <description><![CDATA[
+      Score: 8.0<br/>
+      <a href="https://ediblereading.com/2016/04/15/sanpa-wokingham/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/Sanpa.Store/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.8327072,51.4103892,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Wellington Farm Shop</name>
+      <description><![CDATA[
+      Score: 5.2<br/>
+      <a href="https://ediblereading.com/2016/04/29/wellington-farm-shop-stratfield-saye/" target="_blank">Review</a><br/>
+      <a href="http://www.stratfield-saye.co.uk/wellington-farm-shop/farmshop-in-store/farm-shop-cafe/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9743928,51.3587044,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Buon Appetito</name>
+      <description><![CDATA[
+      Score: 5.3<br/>
+      <a href="https://ediblereading.com/2016/05/06/buon-appetito/" target="_blank">Review</a><br/>
+      <a href="http://www.buonappetitoreading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9834202,51.456177,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Chaiyaphum</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2016/05/13/chaiyaphum-cane-end/" target="_blank">Review</a><br/>
+      <a href="http://chaiyaphum.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.022747,51.510471,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>The Horn</name>
+      <description><![CDATA[
+      Score: 8.4<br/>
+      <a href="https://ediblereading.com/2016/05/20/i-love-paella-at-the-horn/" target="_blank">Review</a><br/>
+      <a href="http://ilovepaella.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9742848,51.453774,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Standard Tandoori Nepalese Restaurant</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2016/05/27/standard-tandoori/" target="_blank">Review</a><br/>
+      <a href="http://www.standardtandoori.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9758041,51.4628486,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Himalaya Momo House</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="https://ediblereading.com/2016/06/03/himalaya-momo-house/" target="_blank">Review</a><br/>
+      <a href="http://www.himalayamomohouse.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9466078,51.4780863,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Royal Oak Paley Street</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="https://ediblereading.com/2016/06/10/the-royal-oak-paley-street/" target="_blank">Review</a><br/>
+      <a href="http://www.theroyaloakpaleystreet.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.753045,51.478016,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Little Angel</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2016/06/17/the-little-angel-henley/" target="_blank">Review</a><br/>
+      <a href="http://www.thelittleangel.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.897497,51.5371963,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Caffeine &amp; Cocktails</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2016/06/24/caffeine-cocktails/" target="_blank">Review</a><br/>
+      <a href="http://www.caffeineandcocktails.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9765355,51.4547974,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Nirvana Spa</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2016/07/01/nirvana-spa/" target="_blank">Review</a><br/>
+      <a href="https://nirvanaspa.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.889878,51.420779,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Smokin' Billy's</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="https://ediblereading.com/2016/07/08/smokin-billys/" target="_blank">Review</a><br/>
+      <a href="http://www.smokingbillys.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9747117,51.4549294,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
