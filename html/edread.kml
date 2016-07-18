@@ -1482,5 +1482,17 @@
         <coordinates>-0.9747117,51.4549294,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Sam’s Wraps</name>
+      <description><![CDATA[
+      Score: 7.6<br/>
+      <a href="https://ediblereading.com/2016/07/15/sams-wraps/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/Sams-wraps-1257121314303741/?fref=ts" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>,,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
