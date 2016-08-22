@@ -1496,14 +1496,14 @@
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Jackson's California Lake</name>
+      <name>Jackson’s, California Country Park</name>
       <description><![CDATA[
       Score: 7.3<br/>
       <a href="https://ediblereading.com/2016/07/22/jacksons-california-country-park/" target="_blank">Review</a><br/>
       <a href="http://jacksonscalifornialake.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.8744914,51.3794456,0</coordinates>
+        <coordinates>,,0</coordinates>
       </Point>
     </Placemark>
   </Document>
