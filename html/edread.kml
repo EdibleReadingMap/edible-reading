@@ -1506,5 +1506,115 @@
         <coordinates>-0.8744914,51.3794456,0</coordinates>
       </Point>
     </Placemark>
+    <!-- REPLACED BY LYNDHURST 2
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Lyndhurst</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="https://ediblereading.com/2017/05/26/the-lyndhurst-2/" target="_blank">Review</a><br/>
+      <a href="http://www.thelyndhurstreading.co.uk" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9614968,51.4536058,0</coordinates>
+      </Point>
+    </Placemark>
+    -->
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Three Guineas</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="https://ediblereading.com/2017/07/14/the-three-guineas/" target="_blank">Review</a><br/>
+      <a href="http://www.three-guineas.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9722189,51.4587985,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Franco Manca</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2017/07/28/franco-manca/" target="_blank">Review</a><br/>
+      <a href="http://www.francomanca.co.uk/restaurants/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9698988,51.4535962,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>7Bone Burger Co. - Reading</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2017/08/11/7bone-burger-co/" target="_blank">Review</a><br/>
+      <a href="http://www.7bone.co.uk/reading.php" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9744208,51.4548641,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Namaste Kitchen Reading Hook &amp; Tackle</name>
+      <description><![CDATA[
+      Score: 8.4<br/>
+      <a href="https://ediblereading.com/2017/09/01/namaste-kitchen/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/Namastekitchenhookntacklereading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9729529,51.4506017,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Memory of Szechuan</name>
+      <description><![CDATA[
+      Score: 7.6<br/>
+      <a href="https://ediblereading.com/2017/09/22/memory-of-sichuan/" target="_blank">Review</a><br/>
+      <a href="http://www.memoryofsichuan.co.uk/web/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9744936,51.4565486,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Veeno - The Italian Wine Café</name>
+      <description><![CDATA[
+      Score: 5.8<br/>
+      <a href="https://ediblereading.com/2017/10/27/veeno/" target="_blank">Review</a><br/>
+      <a href="http://www.theveenocompany.com/veeno-reading-wine-bar/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9691407,51.4572081,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Kokoro</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="https://ediblereading.com/2017/11/10/kokoro/" target="_blank">Review</a><br/>
+      <a href="http://kokorouk.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9722679,51.4558619,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Tipsy Bean</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="https://ediblereading.com/2017/11/24/tipsy-bean/" target="_blank">Review</a><br/>
+      <a href="http://tipsybean.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9726096,51.4679676,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
