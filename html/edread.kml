@@ -764,18 +764,6 @@
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>The Lyndhurst</name>
-      <description><![CDATA[
-      Score: 6.9<br/>
-      <a href="http://ediblereading.com/2015/03/06/the-lyndhurst/" target="_blank">Review</a><br/>
-      <a href="https://www.facebook.com/pages/The-Lyndhurst/519640051447288?fref=ts" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.961504,51.453605,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
       <name>The Baskerville</name>
       <description><![CDATA[
       Score: 7.3<br/>
@@ -1491,7 +1479,7 @@
       <a href="https://www.facebook.com/Sams-wraps-1257121314303741/?fref=ts" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>,,0</coordinates>
+        <coordinates></coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1506,7 +1494,6 @@
         <coordinates>-0.8744914,51.3794456,0</coordinates>
       </Point>
     </Placemark>
-    <!-- REPLACED BY LYNDHURST 2
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
       <name>The Lyndhurst</name>
@@ -1519,7 +1506,6 @@
         <coordinates>-0.9614968,51.4536058,0</coordinates>
       </Point>
     </Placemark>
-    -->
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
       <name>The Three Guineas</name>

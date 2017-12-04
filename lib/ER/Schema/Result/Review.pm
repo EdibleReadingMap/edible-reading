@@ -28,6 +28,8 @@ __PACKAGE__->add_columns(
   { data_type => "text[]", is_nullable => 1 },
   "gdata",
   { data_type => "json", is_nullable => 1 },
+  "hidden",
+  { data_type => "boolean", is_nullable => 1 },
 );
 
 __PACKAGE__->set_primary_key('review');

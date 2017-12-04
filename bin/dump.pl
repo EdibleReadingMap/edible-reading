@@ -17,6 +17,7 @@ my $rs = $s->resultset('Review');
 
 my @features = ();
 while (my $r = $rs->next) {
+    next if $r->hidden eq 'true';
     push @features, {
         type => 'Feature',
         id => $r->review,
@@ -75,6 +76,7 @@ while (my ($id, $pin) = each %pins) {
 
 $rs->reset;
 while (my $r = $rs->next) {
+    next if $r->hidden eq 'true';
     $writer->startTag('Placemark');
 
     $writer->startTag('styleUrl');
@@ -99,7 +101,12 @@ while (my $r = $rs->next) {
 
     $writer->startTag('Point');
     $writer->startTag('coordinates');
-    $writer->characters( $r->long .','. $r->lat .',0' );
+    if ($r->long and $r->lat) {
+      $writer->characters( $r->long .','. $r->lat .',0' );
+    }
+    else {
+      print STDERR sprintf "warning: missing LAT/LONG for %s\n", $r->review;
+    }
     $writer->endTag('coordinates');
     $writer->endTag('Point');
 
