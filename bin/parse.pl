@@ -17,18 +17,18 @@ while (<>) {
     my $page = $ua->get( $link )->res->dom;
     my $r = Review((undef) x 6, []);
 
-    next unless defined $page->find('header.post-title > h1')->first;
-    $r->name = $page->find('header.post-title > h1')->first->text;
+    next unless defined $page->find('h1.entry-title')->first;
+    $r->name = $page->find('h1.entry-title')->first->text;
 
     ($r->review = $link) =~ s/\s+//g;
     $r->review =~ m!(\d{4}/\d{2}/\d{2})!;
     $r->date = $1;
 
-    foreach my $tag ($page->find('div.post-extras a')->each) {
+    foreach my $tag ($page->find('span.tags-links a')->each) {
       push @{$r->tags}, ($tag->text);
     }
 
-    foreach my $score ($page->find('div.post-entry p > strong, b')->each) {
+    foreach my $score ($page->find('div.entry-content p > strong, b')->each) {
       next if $score->text !~ m/ \d+\.\d+$/;
       ($r->score = $score->text) =~ s/.+ //;
 
