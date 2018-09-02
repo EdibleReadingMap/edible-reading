@@ -12,28 +12,13 @@ use Mojo::URL;
 die "Please set Google API key in GOOGLE_API_KEY environment variable.\n"
   if not $ENV{GOOGLE_API_KEY};
 
-my $ua = Mojo::UserAgent->new;
 struct Review => [qw/ name address score website date review tags lat long /],
   named_constructor => 1;
 
 while (<>) {
     my $data = decode_json $_ or next;
     my $r = Review( %$data, lat => undef, long => undef );
-    my ($gapi);
-
-    if ($ENV{DUD}) {
-        (my $a = $r->address) =~ s/\s+/+/g;
-        $gapi = Mojo::URL->new('https://maps.googleapis.com/maps/api/geocode/json');
-        $gapi->query({ key => $ENV{GOOGLE_API_KEY}, address => $a });
-    }
-    else {
-        (my $q = join ',', $r->name, $r->address) =~ s/\s+/+/g;
-        $gapi = Mojo::URL->new('https://maps.googleapis.com/maps/api/place/textsearch/json');
-        $gapi->query({ key => $ENV{GOOGLE_API_KEY}, query => $q });
-    }
-
-    my $res = $ua->get($gapi)->res;
-    my $p = $res->json->{results}->[0];
+    my $p = google_get($r);
 
     if (defined $p) {
       $r->name = $p->{name} if exists $p->{name};
@@ -57,5 +42,25 @@ while (<>) {
     print "\n";
 
     sleep 1;
+}
+
+sub google_get {
+  my $r = shift;
+  my $ua = Mojo::UserAgent->new;
+  my ($gapi, $res);
+
+  (my $a = $r->address) =~ s/\s+/+/g;
+  $gapi = Mojo::URL->new('https://maps.googleapis.com/maps/api/geocode/json');
+  $gapi->query({ key => $ENV{GOOGLE_API_KEY}, address => $a });
+  $res = $ua->get($gapi)->res;
+
+  unless ($res->json->{results}->[0]->{geometry}->{location}->{lat}) {
+    (my $q = join ',', $r->name, $r->address) =~ s/\s+/+/g;
+    $gapi = Mojo::URL->new('https://maps.googleapis.com/maps/api/place/textsearch/json');
+    $gapi->query({ key => $ENV{GOOGLE_API_KEY}, query => $q });
+    $res = $ua->get($gapi)->res;
+  }
+
+  return $res->json->{results}->[0];
 }
 

@@ -1602,5 +1602,197 @@
         <coordinates>-0.9726096,51.4679676,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Queens Head</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="https://ediblereading.com/2017/12/08/the-queens-head/" target="_blank">Review</a><br/>
+      <a href="http://www.readingpubcompany.com/home.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9566147,51.4430969,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Botanist</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2018/01/12/the-botanist/" target="_blank">Review</a><br/>
+      <a href="http://thebotanist.uk.com/locations/reading" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Gooi Nara</name>
+      <description><![CDATA[
+      Score: 7.9<br/>
+      <a href="https://ediblereading.com/2018/01/26/gooi-nara/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/GooiNara/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Honest Burgers</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2018/02/09/honest-burgers/" target="_blank">Review</a><br/>
+      <a href="https://www.honestburgers.co.uk/locations/reading/#" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Pho</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2018/02/23/pho/" target="_blank">Review</a><br/>
+      <a href="https://www.phocafe.co.uk/locations/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Fidget &amp; Bob</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2018/03/09/fidget-bob/" target="_blank">Review</a><br/>
+      <a href="https://www.fidgetandbob.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Jamaica Blue</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="https://ediblereading.com/2018/03/23/jamaica-blue/" target="_blank">Review</a><br/>
+      <a href="http://www.jamaicablue.co.uk/store-locations/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Thames Lido</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="https://ediblereading.com/2018/04/06/thames-lido/" target="_blank">Review</a><br/>
+      <a href="http://www.thameslido.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Lusso, Newbury</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="https://ediblereading.com/2018/04/20/lusso-newbury/" target="_blank">Review</a><br/>
+      <a href="https://www.gelartoicecream.co.uk/lusso" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Real Greek</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="https://ediblereading.com/2018/05/18/the-real-greek/" target="_blank">Review</a><br/>
+      <a href="http://www.therealgreek.com/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Soju</name>
+      <description><![CDATA[
+      Score: 8.1<br/>
+      <a href="https://ediblereading.com/2018/06/08/the-soju/" target="_blank">Review</a><br/>
+      <a href="https://www.thesoju.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Vel</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2018/06/22/vel/" target="_blank">Review</a><br/>
+      <a href="https://eat-vel.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Afghan</name>
+      <description><![CDATA[
+      Score: <br/>
+      <a href="https://ediblereading.com/2018/07/20/afghan/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Tuscany Pizzeria</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="https://ediblereading.com/2018/08/03/tuscany-pizzeria/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/Tuscany-Pizzeria-1971426149852568/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Brewdog</name>
+      <description><![CDATA[
+      Score: 6.2<br/>
+      <a href="https://ediblereading.com/2018/08/17/brewdog/" target="_blank">Review</a><br/>
+      <a href="https://www.brewdog.com/bars/uk/reading" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Bottle &amp; Glass Inn</name>
+      <description><![CDATA[
+      Score: 7.4<br/>
+      <a href="https://ediblereading.com/2018/08/31/the-bottle-and-glass/" target="_blank">Review</a><br/>
+      <a href="https://www.bottleandglassinn.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates></coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
