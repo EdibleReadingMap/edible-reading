@@ -13,11 +13,11 @@ use lib qw( ../lib lib );
 use ER::Schema;
 
 my $s = ER::Schema->connect('dbi:SQLite:dbname=./edread.db');
-my $rs = $s->resultset('Review');
+my $rs = $s->resultset('Review')->search(undef, { order_by => 'date' });
 
 my @features = ();
 while (my $r = $rs->next) {
-    next if $r->hidden eq 'true';
+    # next if $r->tags =~ m/"closed"/i;
     push @features, {
         type => 'Feature',
         id => $r->review,
@@ -30,7 +30,7 @@ while (my $r = $rs->next) {
             'marker-symbol' => 'restaurant',
             Rating => $r->score,
             Website => $r->website,
-            Review => $r->review,
+            Review => ('https://'. $r->review),
         },
     };
 }
@@ -57,9 +57,10 @@ $writer->startTag('Document');
 
 my %pins = (
   lowIcon => 'pink',
-  medlowIcon => 'blue',
-  medhighIcon => 'lightblue',
-  highIcon => 'green',
+  medlowIcon => 'ylw',
+  medhighIcon => 'blu',
+  highIcon => 'grn',
+  hiddenIcon => 'wht',
 );
 
 while (my ($id, $pin) = each %pins) {
@@ -67,7 +68,7 @@ while (my ($id, $pin) = each %pins) {
     $writer->startTag('IconStyle');
     $writer->startTag('Icon');
     $writer->startTag('href');
-    $writer->characters("http://maps.google.com/mapfiles/ms/micons/$pin.png");
+    $writer->characters("http://maps.google.com/mapfiles/kml/paddle/$pin-blank_maps.png");
     $writer->endTag('href');
     $writer->endTag('Icon');
     $writer->endTag('IconStyle');
@@ -76,11 +77,12 @@ while (my ($id, $pin) = each %pins) {
 
 $rs->reset;
 while (my $r = $rs->next) {
-    next if $r->hidden eq 'true';
+    # next if $r->tags =~ m/"closed"/i;
     $writer->startTag('Placemark');
 
     $writer->startTag('styleUrl');
     $writer->characters(
+      ($r->tags =~ m/"closed"/i) ? '#hiddenIcon' :
       ($r->score >= 8.0) ? '#highIcon' :
       ($r->score >= 7.5) ? '#medhighIcon' :
       ($r->score >= 6.5) ? '#medlowIcon' : '#lowIcon'
@@ -96,7 +98,7 @@ while (my $r = $rs->next) {
       Score: %s<br/>
       <a href="%s" target="_blank">Review</a><br/>
       <a href="%s" target="_blank">Website</a>
-    }, $r->score, $r->review, ($r->website || ''));
+    }, ($r->score || ''), ('https://'. $r->review), ($r->website || ''));
     $writer->endTag('description');
 
     $writer->startTag('Point');

@@ -13,8 +13,10 @@ struct Review => [qw/ name address score website date review tags /];
 
 while (<>) {
     my $link = $_ or next;
+    chomp $link;
+    print STDERR $link, "\n";
 
-    my $page = $ua->get( $link )->res->dom;
+    my $page = $ua->get( 'https://'. $link )->res->dom;
     my $r = Review((undef) x 6, []);
 
     next unless defined $page->find('h1.entry-title')->first;
@@ -40,11 +42,13 @@ while (<>) {
       # trim phone number sometimes after post code
       $r->address =~ s/[ 0-9]+$//;
 
-      $r->website = $score->parent->following('p')->first
-        ? $score->parent->following('p')->first->children('a')->first
-          ? $score->parent->following('p')->first->children('a')->first->attr('href')
-          : $score->following('a')->first->attr('href')
-        : undef;
+      $r->website =
+        eval { $score->parent->following('p')->first->children('a')->first->attr('href') }
+        ||
+        eval { $score->following('a')->first->attr('href') }
+        ||
+        undef;
+
       last;
     }
 
