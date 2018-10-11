@@ -2,440 +2,63 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
+    <Style id="hiddenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="highIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/green.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
     <Style id="lowIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/pink.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
     <Style id="medlowIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/blue.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
     <Style id="medhighIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/ms/micons/lightblue.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Bel &amp; The Dragon</name>
-      <description><![CDATA[
-      Score: 6.6<br/>
-      <a href="http://ediblereading.com/2014/04/25/bel-and-the-dragon/" target="_blank">Review</a><br/>
-      <a href="http://www.belandthedragon-reading.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.958286,51.455804,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Bhel Puri House</name>
-      <description><![CDATA[
-      Score: 6.8<br/>
-      <a href="http://ediblereading.com/2014/01/24/bhel-puri-house/" target="_blank">Review</a><br/>
-      <a href="http://bhelpurihouse.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.97039,51.454813,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Café YOLK</name>
-      <description><![CDATA[
-      Score: 5.2<br/>
-      <a href="http://ediblereading.com/2013/11/22/cafe-yolk/" target="_blank">Review</a><br/>
-      <a href="https://www.facebook.com/cafeyolk" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.950108,51.449473,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Coconut Bar &amp; Kitchen</name>
-      <description><![CDATA[
-      Score: 6.8<br/>
-      <a href="http://ediblereading.com/2014/07/04/coconut-bar-kitchen/" target="_blank">Review</a><br/>
-      <a href="http://www.coconutbarkitchen.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.974788,51.454857,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Five Guys - Reading</name>
-      <description><![CDATA[
-      Score: 5.5<br/>
-      <a href="http://ediblereading.com/2013/09/20/five-guys/" target="_blank">Review</a><br/>
-      <a href="https://www.fiveguys.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.971702,51.453097,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>La Courbe</name>
-      <description><![CDATA[
-      Score: 7.3<br/>
-      <a href="http://ediblereading.com/2014/02/21/la-courbe/" target="_blank">Review</a><br/>
-      <a href="www.lacourbe.co.uk" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.969569,51.454634,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>The Pack Horse</name>
-      <description><![CDATA[
-      Score: 5.1<br/>
-      <a href="http://ediblereading.com/2014/03/14/the-pack-horse-mapledurham/" target="_blank">Review</a><br/>
-      <a href="http://www.homecountiespubs.co.uk/packhorse/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-1.0048352,51.4978973,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Moderation</name>
-      <description><![CDATA[
-      Score: 6.6<br/>
-      <a href="http://ediblereading.com/2013/12/06/moderation/" target="_blank">Review</a><br/>
-      <a href="http://www.spirit-house.co.uk/moderation/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.977444,51.46433,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>My Kitchen</name>
-      <description><![CDATA[
-      Score: 7.5<br/>
-      <a href="http://ediblereading.com/2014/06/27/my-kitchen/" target="_blank">Review</a><br/>
-      <a href="http://www.mykitchenandcoffee.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.972285,51.456568,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Ruchetta</name>
-      <description><![CDATA[
-      Score: 7.5<br/>
-      <a href="http://ediblereading.com/2014/05/30/ruchetta-wokingham/" target="_blank">Review</a><br/>
-      <a href="http://www.ruchetta.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.833495,51.411168,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Malmaison Reading</name>
-      <description><![CDATA[
-      Score: 6.5<br/>
-      <a href="http://ediblereading.com/2014/08/08/malmaison/" target="_blank">Review</a><br/>
-      <a href="https://www.malmaison.com/locations/reading/brasserie/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.972018,51.457768,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>The Abbot Cook</name>
-      <description><![CDATA[
-      Score: 6.0<br/>
-      <a href="http://ediblereading.com/2014/04/18/the-abbot-cook/" target="_blank">Review</a><br/>
-      <a href="http://www.theabbotcookreading.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.950586,51.45278,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Art of Siam</name>
-      <description><![CDATA[
-      Score: 7.7<br/>
-      <a href="http://ediblereading.com/2014/08/15/art-of-siam/" target="_blank">Review</a><br/>
-      <a href="http://www.artofsiamuk.com/reading/aboutus.php" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.969682,51.454635,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Catherine Wheel</name>
-      <description><![CDATA[
-      Score: 7.2<br/>
-      <a href="http://ediblereading.com/2014/07/11/the-catherine-wheel-goring/" target="_blank">Review</a><br/>
-      <a href="http://www.catherinewheelgoring.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-1.136984,51.521439,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Tutus Ethiopian Table</name>
-      <description><![CDATA[
-      Score: 5.7<br/>
-      <a href="http://ediblereading.com/2014/11/28/tutus-ethiopian-table/" target="_blank">Review</a><br/>
-      <a href="http://www.tutus-ethiopian-table.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.968177,51.452816,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>Three Tuns</name>
+      <name>Pepe Sale</name>
       <description><![CDATA[
-      Score: 8.4<br/>
-      <a href="http://ediblereading.com/2014/09/12/the-three-tuns-henley/" target="_blank">Review</a><br/>
-      <a href="http://threetunshenley.co.uk/" target="_blank">Website</a>
+      Score: 8.3<br/>
+      <a href="https://ediblereading.com/2013/08/23/pepe-sale/" target="_blank">Review</a><br/>
+      <a href="http://pepesale.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9057615,51.5372426,0</coordinates>
+        <coordinates>-0.975608,51.4544149,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>Barts Grill and Restaurant</name>
+      <name>ZeroDegrees</name>
       <description><![CDATA[
-      Score: 6.2<br/>
-      <a href="http://ediblereading.com/2014/01/10/barts/" target="_blank">Review</a><br/>
-      <a href="http://www.bartsgrill.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.942624,51.451712,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>BHOJ</name>
-      <description><![CDATA[
-      Score: 8.2<br/>
-      <a href="http://ediblereading.com/2014/05/02/bhoj/" target="_blank">Review</a><br/>
-      <a href="http://www.bhoj.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.994971,51.456702,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Bill's Restaurant</name>
-      <description><![CDATA[
-      Score: 6.4<br/>
-      <a href="http://ediblereading.com/2014/11/14/bills/" target="_blank">Review</a><br/>
-      <a href="http://bills-website.co.uk/restaurants/reading/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.97324,51.454838,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Shaun Dickens At The Boat House</name>
-      <description><![CDATA[
-      Score: 6.9<br/>
-      <a href="http://ediblereading.com/2014/10/17/shaun-dickens-at-the-boathouse-henley/" target="_blank">Review</a><br/>
-      <a href="http://www.shaundickens.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.899994,51.53532,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>The Bull on Bell St</name>
-      <description><![CDATA[
-      Score: 5.3<br/>
-      <a href="http://ediblereading.com/2014/01/31/the-bull-on-bell-street-henley/" target="_blank">Review</a><br/>
-      <a href="http://www.bullonbell.co.uk/home" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.904636,51.539263,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Cerise Restaurant &amp; Bar</name>
-      <description><![CDATA[
-      Score: 7.9<br/>
-      <a href="http://ediblereading.com/2014/02/28/cerise/" target="_blank">Review</a><br/>
-      <a href="http://www.theforburyhotel.co.uk/dine/cerise" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.967103,51.456385,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Chennai Dosa</name>
-      <description><![CDATA[
-      Score: 7.0<br/>
-      <a href="http://ediblereading.com/2014/10/10/chennai-dosa/" target="_blank">Review</a><br/>
-      <a href="http://www.chennaidosa.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.968331,51.455057,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>China Palace</name>
-      <description><![CDATA[
-      Score: 6.3<br/>
-      <a href="http://ediblereading.com/2014/05/09/china-palace/" target="_blank">Review</a><br/>
-      <a href="http://www.chinapalacereading.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.977169,51.455187,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Cote Brasserie</name>
-      <description><![CDATA[
-      Score: 7.8<br/>
-      <a href="http://ediblereading.com/2014/03/07/cote/" target="_blank">Review</a><br/>
-      <a href="http://www.cote-restaurants.co.uk/Cote_Restaurant_Reading.html" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.968947,51.453505,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Dolce Vita</name>
-      <description><![CDATA[
-      Score: 7.6<br/>
-      <a href="http://ediblereading.com/2014/04/11/dolce-vita/" target="_blank">Review</a><br/>
-      <a href="http://www.dolcevitareading.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.969535,51.454221,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Forbury's Restaurant</name>
-      <description><![CDATA[
-      Score: 7.1<br/>
-      <a href="http://ediblereading.com/2013/11/15/forburys/" target="_blank">Review</a><br/>
-      <a href="http://forburys.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.968138,51.456041,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Faith Kitchen</name>
-      <description><![CDATA[
-      Score: 6.4<br/>
-      <a href="http://ediblereading.com/2014/10/03/faith-kitchen/" target="_blank">Review</a><br/>
-      <a href="http://www.faithkitchen.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9941216,51.4565587,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>Kings Grill</name>
-      <description><![CDATA[
-      Score: 8.0<br/>
-      <a href="http://ediblereading.com/2014/08/22/kings-grill/" target="_blank">Review</a><br/>
+      Score: 5.4<br/>
+      <a href="https://ediblereading.com/2013/08/30/zerodegrees/" target="_blank">Review</a><br/>
       <a href="" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.967978,51.454796,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>Kyrenia</name>
-      <description><![CDATA[
-      Score: 8.6<br/>
-      <a href="http://ediblereading.com/2014/12/12/kyrenia/" target="_blank">Review</a><br/>
-      <a href="http://www.kyreniarestaurant.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.972923,51.467776,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Mission Burrito</name>
-      <description><![CDATA[
-      Score: 6.7<br/>
-      <a href="http://ediblereading.com/2014/03/21/mission-burrito/" target="_blank">Review</a><br/>
-      <a href="http://missionburrito.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.97139,51.453261,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Mr Chips and Bubble Tea Reading</name>
-      <description><![CDATA[
-      Score: 6.5<br/>
-      <a href="http://ediblereading.com/2014/09/26/mr-chips/" target="_blank">Review</a><br/>
-      <a href="http://www.mrchipsandbubbleteareading.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.976309,51.455011,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>House Of Flavours</name>
-      <description><![CDATA[
-      Score: 8.3<br/>
-      <a href="http://ediblereading.com/2013/12/13/house-flavours/" target="_blank">Review</a><br/>
-      <a href="http://house-of-flavours.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.967944,51.454862,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Kei's</name>
-      <description><![CDATA[
-      Score: 6.7<br/>
-      <a href="http://ediblereading.com/2014/12/05/keis/" target="_blank">Review</a><br/>
-      <a href="http://www.keis.co.uk/reading/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.913796,51.428485,0</coordinates>
+        <coordinates>-0.9732663,51.4536677,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -443,199 +66,43 @@
       <name>London Street Brasserie</name>
       <description><![CDATA[
       Score: 6.8<br/>
-      <a href="http://ediblereading.com/2013/09/06/london-street-brasserie/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2013/09/06/london-street-brasserie/" target="_blank">Review</a><br/>
       <a href="http://www.londonstbrasserie.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.968735,51.453938,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Sushimania</name>
-      <description><![CDATA[
-      Score: 7.4<br/>
-      <a href="http://ediblereading.com/2013/11/08/sushimania/" target="_blank">Review</a><br/>
-      <a href="http://www.reading.sushimania.co.uk" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.976985,51.454416,0</coordinates>
+        <coordinates>-0.9682446,51.4539331,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>Sweeney &amp; Todd</name>
-      <description><![CDATA[
-      Score: 5.2<br/>
-      <a href="http://ediblereading.com/2014/01/17/sweeney-and-todd/" target="_blank">Review</a><br/>
-      <a href="http://www.sweeneyandtodd.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.974452,51.453693,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Pau Brasil</name>
-      <description><![CDATA[
-      Score: 6.1<br/>
-      <a href="http://ediblereading.com/2014/08/01/pau-brasil/" target="_blank">Review</a><br/>
-      <a href="https://www.facebook.com/paubrasiluk" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.965853,51.446771,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>Pepe Sale</name>
-      <description><![CDATA[
-      Score: 8.3<br/>
-      <a href="http://ediblereading.com/2013/08/23/pepe-sale/" target="_blank">Review</a><br/>
-      <a href="http://pepesale.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.97745,51.454247,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Picasso tapas restaurant</name>
+      <name>Picasso</name>
       <description><![CDATA[
       Score: 4.1<br/>
-      <a href="http://ediblereading.com/2013/09/13/picasso/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2013/09/13/picasso/" target="_blank">Review</a><br/>
       <a href="http://www.picasso-tapas.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.977006,51.466567,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Quattro Restaurant</name>
-      <description><![CDATA[
-      Score: 6.5<br/>
-      <a href="http://ediblereading.com/2014/11/21/quattro/" target="_blank">Review</a><br/>
-      <a href="http://www.quattro-restaurant.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.972789,51.467906,0</coordinates>
+        <coordinates>-0.9770633,51.4665499,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>RYND Bar &amp; Kitchen</name>
+      <name>Five Guys</name>
       <description><![CDATA[
-      Score: 6.2<br/>
-      <a href="http://ediblereading.com/2014/10/24/rynd/" target="_blank">Review</a><br/>
-      <a href="http://ryndreading.com/" target="_blank">Website</a>
+      Score: 5.5<br/>
+      <a href="https://ediblereading.com/2013/09/20/five-guys/" target="_blank">Review</a><br/>
+      <a href="https://www.fiveguys.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.974519,51.453569,0</coordinates>
+        <coordinates>-0.9707129,51.4536968,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Sapana Home</name>
-      <description><![CDATA[
-      Score: 6.3<br/>
-      <a href="http://ediblereading.com/2014/09/19/sapana-home/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.971976,51.456389,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Tampopo</name>
-      <description><![CDATA[
-      Score: 7.6<br/>
-      <a href="http://ediblereading.com/2014/06/06/tampopo/" target="_blank">Review</a><br/>
-      <a href="http://www.tampopo.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.969061,51.453441,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Tasting House</name>
-      <description><![CDATA[
-      Score: 6.8<br/>
-      <a href="http://ediblereading.com/2014/06/13/tasting-house/" target="_blank">Review</a><br/>
-      <a href="http://tastinghouse.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.973102,51.455377,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Thai Corner</name>
-      <description><![CDATA[
-      Score: 7.0<br/>
-      <a href="http://ediblereading.com/2014/02/14/thai-corner/" target="_blank">Review</a><br/>
-      <a href="http://www.thaicornerreading.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.976365,51.456435,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Zerodegrees - Microbrewery Restaurant</name>
-      <description><![CDATA[
-      Score: 5.4<br/>
-      <a href="http://ediblereading.com/2013/08/30/zerodegrees/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.973352,51.453645,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>Plowden Arms</name>
-      <description><![CDATA[
-      Score: 8.7<br/>
-      <a href="http://ediblereading.com/2013/11/29/plowden-arms-shiplake/" target="_blank">Review</a><br/>
-      <a href="http://www.plowdenarmsshiplake.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9029243,51.4981107,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>The Bull Inn</name>
-      <description><![CDATA[
-      Score: 8.1<br/>
-      <a href="http://ediblereading.com/2014/11/07/the-bull-inn-sonning/" target="_blank">Review</a><br/>
-      <a href="http://bullinnsonning.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.911804,51.473671,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Pappadams</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Warwick</name>
       <description><![CDATA[
       Score: 7.2<br/>
-      <a href="http://ediblereading.com/2014/06/20/pappadams/" target="_blank">Review</a><br/>
-      <a href="http://www.pappadamsreading.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9655892,51.4546466,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Warwick Arms</name>
-      <description><![CDATA[
-      Score: 7.2<br/>
-      <a href="http://ediblereading.com/2013/10/04/the-warwick/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2013/10/04/the-warwick/" target="_blank">Review</a><br/>
       <a href="http://www.aroythai.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
@@ -644,14 +111,398 @@
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Perry's</name>
+      <name>Perry’s</name>
       <description><![CDATA[
       Score: 6.7<br/>
-      <a href="http://ediblereading.com/2013/10/11/perrys/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2013/10/11/perrys/" target="_blank">Review</a><br/>
       <a href="" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.969072,51.455234,0</coordinates>
+        <coordinates>-0.9694158,51.4558173,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Kyklos</name>
+      <description><![CDATA[
+      Score: 6.3<br/>
+      <a href="https://ediblereading.com/2013/10/18/kyklos/" target="_blank">Review</a><br/>
+      <a href="http://www.kyklosreading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.969569,51.4546338,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Lobster Room</name>
+      <description><![CDATA[
+      Score: 3.3<br/>
+      <a href="https://ediblereading.com/2013/11/01/lobster-room/" target="_blank">Review</a><br/>
+      <a href="http://www.thelobsterroom.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9689911,51.4572127,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Sushimania</name>
+      <description><![CDATA[
+      Score: 7.4<br/>
+      <a href="https://ediblereading.com/2013/11/08/sushimania/" target="_blank">Review</a><br/>
+      <a href="http://www.reading.sushimania.co.uk" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.977679,51.454388,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Forbury’s</name>
+      <description><![CDATA[
+      Score: 7.1<br/>
+      <a href="https://ediblereading.com/2013/11/15/forburys/" target="_blank">Review</a><br/>
+      <a href="http://forburys.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.968467,51.4561087,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Café Yolk</name>
+      <description><![CDATA[
+      Score: 5.2<br/>
+      <a href="https://ediblereading.com/2013/11/22/cafe-yolk/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/cafeyolk" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9500938,51.4494963,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Plowden Arms, Shiplake</name>
+      <description><![CDATA[
+      Score: 8.7<br/>
+      <a href="https://ediblereading.com/2013/11/29/plowden-arms-shiplake/" target="_blank">Review</a><br/>
+      <a href="http://www.plowdenarmsshiplake.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9029243,51.4981107,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Moderation</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2013/12/06/moderation/" target="_blank">Review</a><br/>
+      <a href="http://www.spirit-house.co.uk/moderation/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9773407,51.4643857,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>House Of Flavours</name>
+      <description><![CDATA[
+      Score: 8.3<br/>
+      <a href="https://ediblereading.com/2013/12/13/house-flavours/" target="_blank">Review</a><br/>
+      <a href="http://house-of-flavours.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9670874,51.4547319,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>BHOJ</name>
+      <description><![CDATA[
+      Score: 8.2<br/>
+      <a href="https://ediblereading.com/2014/05/02/bhoj/" target="_blank">Review</a><br/>
+      <a href="http://www.bhoj.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.994971,51.456702,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Bart’s</name>
+      <description><![CDATA[
+      Score: 6.2<br/>
+      <a href="https://ediblereading.com/2014/01/10/barts/" target="_blank">Review</a><br/>
+      <a href="http://www.bartsgrill.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9426585,51.4516618,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Sweeney and Todd</name>
+      <description><![CDATA[
+      Score: 5.2<br/>
+      <a href="https://ediblereading.com/2014/01/17/sweeney-and-todd/" target="_blank">Review</a><br/>
+      <a href="http://www.sweeneyandtodd.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9744788,51.4537406,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Bhel Puri House</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2014/01/24/bhel-puri-house/" target="_blank">Review</a><br/>
+      <a href="http://bhelpurihouse.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9705323,51.4548566,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Bull On Bell Street, Henley</name>
+      <description><![CDATA[
+      Score: 5.3<br/>
+      <a href="https://ediblereading.com/2014/01/31/the-bull-on-bell-street-henley/" target="_blank">Review</a><br/>
+      <a href="http://www.bullonbell.co.uk/home" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9046152,51.5392755,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Thai Corner</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2014/02/14/thai-corner/" target="_blank">Review</a><br/>
+      <a href="http://www.thaicornerreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9761106,51.4563855,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>La Courbe</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2014/02/21/la-courbe/" target="_blank">Review</a><br/>
+      <a href="www.lacourbe.co.uk" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9685688,51.4550068,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Cerise</name>
+      <description><![CDATA[
+      Score: 7.9<br/>
+      <a href="https://ediblereading.com/2014/02/28/cerise/" target="_blank">Review</a><br/>
+      <a href="http://www.theforburyhotel.co.uk/dine/cerise" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9673727,51.4563735,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Côte</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="https://ediblereading.com/2014/03/07/cote/" target="_blank">Review</a><br/>
+      <a href="http://www.cote-restaurants.co.uk/Cote_Restaurant_Reading.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9688684,51.4534987,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Pack Horse, Mapledurham</name>
+      <description><![CDATA[
+      Score: 5.1<br/>
+      <a href="https://ediblereading.com/2014/03/14/the-pack-horse-mapledurham/" target="_blank">Review</a><br/>
+      <a href="http://www.homecountiespubs.co.uk/packhorse/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9887542,51.4744527,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Mission Burrito</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="https://ediblereading.com/2014/03/21/mission-burrito/" target="_blank">Review</a><br/>
+      <a href="http://missionburrito.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.971373,51.4533066,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Eldon Arms</name>
+      <description><![CDATA[
+      Score: 8.0<br/>
+      <a href="https://ediblereading.com/2014/04/04/the-eldon-arms/" target="_blank">Review</a><br/>
+      <a href="http://www.eldonarmsreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9574994,51.4529127,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Dolce Vita</name>
+      <description><![CDATA[
+      Score: 7.6<br/>
+      <a href="https://ediblereading.com/2014/04/11/dolce-vita/" target="_blank">Review</a><br/>
+      <a href="http://www.dolcevitareading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9592139,51.4540052,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Abbot Cook</name>
+      <description><![CDATA[
+      Score: 6.0<br/>
+      <a href="https://ediblereading.com/2014/04/18/the-abbot-cook/" target="_blank">Review</a><br/>
+      <a href="http://www.theabbotcookreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9508305,51.4529414,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Bel And The Dragon</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2014/04/25/bel-and-the-dragon/" target="_blank">Review</a><br/>
+      <a href="http://www.belandthedragon-reading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9545484,51.4562706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>China Palace</name>
+      <description><![CDATA[
+      Score: 6.3<br/>
+      <a href="https://ediblereading.com/2014/05/09/china-palace/" target="_blank">Review</a><br/>
+      <a href="http://www.chinapalacereading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9771613,51.4551173,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Cappuccina Café</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2014/05/16/cappuccina-cafe/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/cappuccinacafe" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9755555,51.4557418,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Ruchetta, Wokingham</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="https://ediblereading.com/2014/05/30/ruchetta-wokingham/" target="_blank">Review</a><br/>
+      <a href="http://www.ruchetta.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.8334112,51.4112101,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Tampopo</name>
+      <description><![CDATA[
+      Score: 7.6<br/>
+      <a href="https://ediblereading.com/2014/06/06/tampopo/" target="_blank">Review</a><br/>
+      <a href="http://www.tampopo.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9714082,51.4536424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Tasting House</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2014/06/13/tasting-house/" target="_blank">Review</a><br/>
+      <a href="http://tastinghouse.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9731021,51.4553771,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Pappadams</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="https://ediblereading.com/2014/06/20/pappadams/" target="_blank">Review</a><br/>
+      <a href="http://www.pappadamsreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9654609,51.4546695,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>My Kitchen</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="https://ediblereading.com/2014/06/27/my-kitchen/" target="_blank">Review</a><br/>
+      <a href="http://www.mykitchenandcoffee.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9722589,51.455986,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Coconut Bar &amp; Kitchen</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2014/07/04/coconut-bar-kitchen/" target="_blank">Review</a><br/>
+      <a href="http://www.coconutbarkitchen.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9744964,51.454968,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Catherine Wheel, Goring</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="https://ediblereading.com/2014/07/11/the-catherine-wheel-goring/" target="_blank">Review</a><br/>
+      <a href="http://www.catherinewheelgoring.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.1367162,51.5214473,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -659,19 +510,235 @@
       <name>Blue’s Smokehouse, Bracknell</name>
       <description><![CDATA[
       Score: 7.4<br/>
-      <a href="http://ediblereading.com/2014/07/25/blues-smokehouse-bracknell/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2014/07/25/blues-smokehouse-bracknell/" target="_blank">Review</a><br/>
       <a href="http://bluessmokehouse.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.7519424,51.4168924,0</coordinates>
+        <coordinates>-0.7523957,51.4169132,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Pau Brasil</name>
+      <description><![CDATA[
+      Score: 6.1<br/>
+      <a href="https://ediblereading.com/2014/08/01/pau-brasil/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/paubrasiluk" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9658922,51.4468128,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Malmaison</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="https://ediblereading.com/2014/08/08/malmaison/" target="_blank">Review</a><br/>
+      <a href="https://www.malmaison.com/locations/reading/brasserie/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9719001,51.4576982,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Art of Siam</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="https://ediblereading.com/2014/08/15/art-of-siam/" target="_blank">Review</a><br/>
+      <a href="http://www.artofsiamuk.com/reading/aboutus.php" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9692776,51.4549966,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>The Pack Saddle</name>
+      <name>King’s Grill</name>
       <description><![CDATA[
       Score: 8.0<br/>
-      <a href="http://ediblereading.com/2015/01/09/the-pack-saddle-mapledurham/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2014/08/22/kings-grill/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9679621,51.4547847,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Three Tuns, Henley</name>
+      <description><![CDATA[
+      Score: 8.4<br/>
+      <a href="https://ediblereading.com/2014/09/12/the-three-tuns-henley/" target="_blank">Review</a><br/>
+      <a href="http://threetunshenley.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9048314,51.5374635,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Sapana Home</name>
+      <description><![CDATA[
+      Score: 6.3<br/>
+      <a href="https://ediblereading.com/2014/09/19/sapana-home/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9720144,51.456193,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Mr Chips</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="https://ediblereading.com/2014/09/26/mr-chips/" target="_blank">Review</a><br/>
+      <a href="http://www.mrchipsandbubbleteareading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9765868,51.4551658,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Faith Kitchen</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="https://ediblereading.com/2014/10/03/faith-kitchen/" target="_blank">Review</a><br/>
+      <a href="http://www.faithkitchen.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9942195,51.4564244,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Chennai Dosa (Artisanz)</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2014/10/10/chennai-dosa/" target="_blank">Review</a><br/>
+      <a href="http://www.chennaidosa.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9683818,51.45507,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Shaun Dickens At The Boathouse, Henley</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="https://ediblereading.com/2014/10/17/shaun-dickens-at-the-boathouse-henley/" target="_blank">Review</a><br/>
+      <a href="http://www.shaundickens.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.900138,51.535351,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>RYND</name>
+      <description><![CDATA[
+      Score: 6.2<br/>
+      <a href="https://ediblereading.com/2014/10/24/rynd/" target="_blank">Review</a><br/>
+      <a href="http://ryndreading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9743028,51.4534777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Arepas Caffe</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2014/10/31/arepas-caffe/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/pages/Arepas-Caffe/124324927762717" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.976487,51.456509,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>The Bull Inn, Sonning</name>
+      <description><![CDATA[
+      Score: 8.1<br/>
+      <a href="https://ediblereading.com/2014/11/07/the-bull-inn-sonning/" target="_blank">Review</a><br/>
+      <a href="http://bullinnsonning.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9112168,51.473549,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Bill’s</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="https://ediblereading.com/2014/11/14/bills/" target="_blank">Review</a><br/>
+      <a href="http://bills-website.co.uk/restaurants/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9734266,51.4552746,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Quattro</name>
+      <description><![CDATA[
+      Score: 6.5<br/>
+      <a href="https://ediblereading.com/2014/11/21/quattro/" target="_blank">Review</a><br/>
+      <a href="http://www.quattro-restaurant.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9727455,51.467944,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Tutu’s Ethiopian Table</name>
+      <description><![CDATA[
+      Score: 5.7<br/>
+      <a href="https://ediblereading.com/2014/11/28/tutus-ethiopian-table/" target="_blank">Review</a><br/>
+      <a href="http://www.tutus-ethiopian-table.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9680492,51.4528776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Kei’s</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="https://ediblereading.com/2014/12/05/keis/" target="_blank">Review</a><br/>
+      <a href="http://www.keis.co.uk/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.913304,51.428435,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Kyrenia</name>
+      <description><![CDATA[
+      Score: 8.6<br/>
+      <a href="https://ediblereading.com/2014/12/12/kyrenia/" target="_blank">Review</a><br/>
+      <a href="http://www.kyreniarestaurant.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9729171,51.4677642,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>The Pack Saddle, Mapledurham</name>
+      <description><![CDATA[
+      Score: 8.0<br/>
+      <a href="https://ediblereading.com/2015/01/09/the-pack-saddle-mapledurham/" target="_blank">Review</a><br/>
       <a href="http://www.thepacksaddle.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
@@ -680,38 +747,38 @@
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>Misugo</name>
+      <name>Misugo, Windsor</name>
       <description><![CDATA[
       Score: 8.5<br/>
-      <a href="http://ediblereading.com/2015/01/16/misugo-windsor/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/01/16/misugo-windsor/" target="_blank">Review</a><br/>
       <a href="http://misugo.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.612974,51.477205,0</coordinates>
+        <coordinates>-0.6130223,51.4771768,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Jamie's Italian - Reading</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Jamie’s Italian</name>
       <description><![CDATA[
       Score: 6.7<br/>
-      <a href="http://ediblereading.com/2015/01/23/jamies-italian/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/01/23/jamies-italian/" target="_blank">Review</a><br/>
       <a href="http://www.jamieoliver.com/italian/restaurants/reading" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.971009,51.452852,0</coordinates>
+        <coordinates>-0.9714082,51.4536424,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>Mangal</name>
       <description><![CDATA[
       Score: 6.3<br/>
-      <a href="http://ediblereading.com/2015/01/30/mangal/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/01/30/mangal/" target="_blank">Review</a><br/>
       <a href="http://www.mangalreading.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.974524,51.454844,0</coordinates>
+        <coordinates>-0.9744365,51.4548733,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -719,11 +786,11 @@
       <name>Oakford Social Club</name>
       <description><![CDATA[
       Score: 6.6<br/>
-      <a href="http://ediblereading.com/2015/02/06/oakford-social-club/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/02/06/oakford-social-club/" target="_blank">Review</a><br/>
       <a href="http://www.oakfordsocialclub.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.971662,51.457865,0</coordinates>
+        <coordinates>-0.9715508,51.45767,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -731,59 +798,71 @@
       <name>Alto Lounge</name>
       <description><![CDATA[
       Score: 6.5<br/>
-      <a href="http://ediblereading.com/2015/02/13/alto-lounge/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/02/13/alto-lounge/" target="_blank">Review</a><br/>
       <a href="http://www.thelounges.co.uk/alto-lounge/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.974918,51.467804,0</coordinates>
+        <coordinates>-0.9747545,51.4678334,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Bejing Noodle House</name>
+      <name>Beijing Noodle House</name>
       <description><![CDATA[
       Score: 7.2<br/>
-      <a href="http://ediblereading.com/2015/02/20/beijing-noodle-house/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/02/20/beijing-noodle-house/" target="_blank">Review</a><br/>
       <a href="http://www.hongbeijingreading.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.975638,51.456032,0</coordinates>
+        <coordinates>-0.9755379,51.4559127,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Caversham House Lodge</name>
+      <name>Lincoln Coffee House</name>
       <description><![CDATA[
       Score: 6.6<br/>
-      <a href="http://ediblereading.com/2015/02/27/lincoln-coffee-house/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/02/27/lincoln-coffee-house/" target="_blank">Review</a><br/>
       <a href="http://lincolncoffeehouse.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.97678,51.463854,0</coordinates>
+        <coordinates>-0.965968,51.4546844,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Lyndhurst</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="https://ediblereading.com/2015/03/06/the-lyndhurst/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/pages/The-Lyndhurst/519640051447288?fref=ts" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9617687,51.4537887,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>The Baskerville</name>
+      <name>The Baskerville, Shiplake</name>
       <description><![CDATA[
       Score: 7.3<br/>
-      <a href="http://ediblereading.com/2015/03/13/baskerville-shiplake/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/03/13/baskerville-shiplake/" target="_blank">Review</a><br/>
       <a href="http://www.thebaskerville.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.883638,51.511244,0</coordinates>
+        <coordinates>-0.883928,51.5114603,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Papagee</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Papa Gee</name>
       <description><![CDATA[
       Score: 7.8<br/>
-      <a href="http://ediblereading.com/2015/03/20/papa-gee/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/03/20/papa-gee/" target="_blank">Review</a><br/>
       <a href="http://www.papagee.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.975612,51.463195,0</coordinates>
+        <coordinates>-0.9758745,51.4632113,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -791,107 +870,107 @@
       <name>River Spice</name>
       <description><![CDATA[
       Score: 6.1<br/>
-      <a href="http://ediblereading.com/2015/03/27/river-spice/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/03/27/river-spice/" target="_blank">Review</a><br/>
       <a href="http://www.riverspicereading.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.976932,51.464847,0</coordinates>
+        <coordinates>-0.9763996,51.4639186,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>L'Ortolan</name>
+      <name>L’Ortolan, Shinfield</name>
       <description><![CDATA[
       Score: 7.8<br/>
-      <a href="http://ediblereading.com/2015/04/03/lortolan/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/04/03/lortolan/" target="_blank">Review</a><br/>
       <a href="http://www.lortolan.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.954076,51.408876,0</coordinates>
+        <coordinates>-0.9524524,51.407976,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Artigiano Coffee Bar</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Artigiano</name>
       <description><![CDATA[
       Score: 5.3<br/>
-      <a href="http://ediblereading.com/2015/04/10/artigiano/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/04/10/artigiano/" target="_blank">Review</a><br/>
       <a href="http://www.artigiano.uk.com/reading.html" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.974092,51.454809,0</coordinates>
+        <coordinates>-0.974144,51.4557448,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#highIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>Siblings Home</name>
       <description><![CDATA[
       Score: 8.0<br/>
-      <a href="http://ediblereading.com/2015/04/17/siblings-home/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/04/17/siblings-home/" target="_blank">Review</a><br/>
       <a href="http://www.siblingshome.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9745646,51.4686272,0</coordinates>
+        <coordinates>-0.9743102,51.4689018,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Reformation</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Reformation, Gallowstree Common</name>
       <description><![CDATA[
       Score: 7.2<br/>
-      <a href="http://ediblereading.com/2015/04/24/reformation-gallowstree-common/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/04/24/reformation-gallowstree-common/" target="_blank">Review</a><br/>
       <a href="http://www.therefpub.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-1.006649,51.516444,0</coordinates>
+        <coordinates>-1.0052315,51.5164447,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>O Beirão</name>
       <description><![CDATA[
       Score: 7.0<br/>
-      <a href="http://ediblereading.com/2015/05/08/o-beirao/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/05/08/o-beirao/" target="_blank">Review</a><br/>
       <a href="http://obeirao.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.966989,51.43986,0</coordinates>
+        <coordinates>-0.9669932,51.4398566,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>Giggling Squid</name>
+      <name>Giggling Squid, Henley</name>
       <description><![CDATA[
       Score: 7.7<br/>
-      <a href="http://ediblereading.com/2015/05/15/giggling-squid-henley/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/05/15/giggling-squid-henley/" target="_blank">Review</a><br/>
       <a href="http://www.gigglingsquid.com/branches/henley.html" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.90231,51.537618,0</coordinates>
+        <coordinates>-0.9023134,51.5374444,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>Cafe Madras</name>
       <description><![CDATA[
       Score: 6.4<br/>
-      <a href="http://ediblereading.com/2015/05/22/cafe-madras/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/05/22/cafe-madras/" target="_blank">Review</a><br/>
       <a href="http://cafemadras.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9649,51.444641,0</coordinates>
+        <coordinates>-0.9646892,51.4445925,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>Al Fassia</name>
+      <name>Al Fassia, Windsor</name>
       <description><![CDATA[
       Score: 8.2<br/>
-      <a href="http://ediblereading.com/2015/05/29/al-fassia-windsor/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/05/29/al-fassia-windsor/" target="_blank">Review</a><br/>
       <a href="http://www.alfassiarestaurant.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.612244,51.479301,0</coordinates>
+        <coordinates>-0.6123113,51.4792818,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -899,95 +978,107 @@
       <name>Shed</name>
       <description><![CDATA[
       Score: 7.9<br/>
-      <a href="http://ediblereading.com/2015/06/05/shed/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/06/05/shed/" target="_blank">Review</a><br/>
       <a href="http://www.theshedcafe.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.973404,51.4574594,0</coordinates>
+        <coordinates>-0.9735218,51.4573973,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>The Bali Lounge</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Loch Fyne</name>
       <description><![CDATA[
-      Score: 6.4<br/>
-      <a href="http://ediblereading.com/2015/06/26/bali-lounge/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
+      Score: 5.9<br/>
+      <a href="https://ediblereading.com/2015/06/12/loch-fyne/" target="_blank">Review</a><br/>
+      <a href="http://www.lochfyneseafoodandgrill.co.uk/locations/reading" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.964124,51.4549,0</coordinates>
+        <coordinates>-0.973587,51.451638,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#highIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Bali Lounge</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="https://ediblereading.com/2015/06/26/bali-lounge/" target="_blank">Review</a><br/>
+      <a href="http://www.thebalilounge.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9635408,51.4550965,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>I Love Paella</name>
       <description><![CDATA[
       Score: 8.2<br/>
-      <a href="http://ediblereading.com/2015/07/03/i-love-paella/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/07/03/i-love-paella/" target="_blank">Review</a><br/>
       <a href="http://ilovepaella.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9964293,51.4569292,0</coordinates>
+        <coordinates>-0.9934753,51.4560888,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>Bird In Hand</name>
+      <name>The Bird in Hand, Sonning Common</name>
       <description><![CDATA[
       Score: 8.3<br/>
-      <a href="http://ediblereading.com/2015/07/10/the-bird-in-hand-sonning-common/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/07/10/the-bird-in-hand-sonning-common/" target="_blank">Review</a><br/>
       <a href="http://birdinhandsonningcommon.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.97006,51.507163,0</coordinates>
+        <coordinates>-0.9708318,51.5080239,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Miahs Garden Of Gulab</name>
+      <name>Miah’s Garden Of Gulab</name>
       <description><![CDATA[
       Score: 6.7<br/>
-      <a href="http://ediblereading.com/2015/07/17/miahs-garden-of-gulab/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/07/17/miahs-garden-of-gulab/" target="_blank">Review</a><br/>
       <a href="http://www.miahs.co.uk/restaurants/garden_of_gulab/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9384,51.449339,0</coordinates>
+        <coordinates>-0.9384002,51.4493374,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>Nibsy's Coffe Shop</name>
+      <name>Nibsy’s</name>
       <description><![CDATA[
       Score: 7.7<br/>
-      <a href="http://ediblereading.com/2015/07/24/nibsys/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/07/24/nibsys/" target="_blank">Review</a><br/>
       <a href="http://www.nibsys.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.971424,51.456152,0</coordinates>
+        <coordinates>-0.9714244,51.4561525,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>Suwanna</name>
+      <name>Thai Table</name>
       <description><![CDATA[
       Score: 7.7<br/>
-      <a href="http://ediblereading.com/2015/07/31/thai-table/" target="_blank">Review</a><br/>
-      <a href="http://www.suwannathai.co.uk/" target="_blank">Website</a>
+      <a href="https://ediblereading.com/2015/07/31/thai-table/" target="_blank">Review</a><br/>
+      <a href="http://www.thaitable.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.97714,51.467331,0</coordinates>
+        <coordinates>-0.9771711,51.467298,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>The Oracle Shopping Centre</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>CAU</name>
       <description><![CDATA[
       Score: 7.8<br/>
-      <a href="http://ediblereading.com/2015/08/07/cau/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/08/07/cau/" target="_blank">Review</a><br/>
       <a href="http://www.caurestaurants.com/book-a-table/reading/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.971378,51.453614,0</coordinates>
+        <coordinates>-0.972021,51.454114,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -995,107 +1086,107 @@
       <name>Bakery House</name>
       <description><![CDATA[
       Score: 7.5<br/>
-      <a href="http://ediblereading.com/2015/08/14/bakery-house/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
+      <a href="https://ediblereading.com/2015/08/14/bakery-house/" target="_blank">Review</a><br/>
+      <a href="http://bakeryhouse.co/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.968064,51.451659,0</coordinates>
+        <coordinates>-0.9680521,51.4516162,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Villa Marina</name>
+      <name>Villa Marina, Henley</name>
       <description><![CDATA[
       Score: 7.0<br/>
-      <a href="http://ediblereading.com/2015/08/21/villa-marina-henley/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
+      <a href="https://ediblereading.com/2015/08/21/villa-marina-henley/" target="_blank">Review</a><br/>
+      <a href="http://www.villamarina-henley.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.901237,51.537423,0</coordinates>
+        <coordinates>-0.9012139,51.5373912,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Revolution Bar Reading</name>
+      <name>Revolution</name>
       <description><![CDATA[
       Score: 7.1<br/>
-      <a href="http://ediblereading.com/2015/08/28/revolution/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/08/28/revolution/" target="_blank">Review</a><br/>
       <a href="http://www.revolution-bars.co.uk/bar/reading/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.971993,51.457391,0</coordinates>
+        <coordinates>-0.9719153,51.4574208,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Oracle Shopping Centre</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Manhattan Coffee Club</name>
       <description><![CDATA[
       Score: 7.3<br/>
-      <a href="http://ediblereading.com/2015/09/18/manhattan-coffee-club/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/09/18/manhattan-coffee-club/" target="_blank">Review</a><br/>
       <a href="https://www.facebook.com/manhattancoffeeclub" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.971378,51.453614,0</coordinates>
+        <coordinates>-0.9714082,51.4536424,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Fisherman's Cottage Riverside Pub &amp; Kitchen</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>The Fisherman’s Cottage</name>
       <description><![CDATA[
       Score: 7.0<br/>
-      <a href="http://ediblereading.com/2015/09/25/fishermans-cottage/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/09/25/fishermans-cottage/" target="_blank">Review</a><br/>
       <a href="http://www.thefishermanscottagereading.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.95522,51.455423,0</coordinates>
+        <coordinates>-0.9554751,51.4557083,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>Wolf - Italian Street Food</name>
+      <name>Wolf</name>
       <description><![CDATA[
       Score: 5.6<br/>
-      <a href="http://ediblereading.com/2015/10/02/wolf/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/10/02/wolf/" target="_blank">Review</a><br/>
       <a href="http://www.wolfstreetfood.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9733145,51.4554862,0</coordinates>
+        <coordinates>-0.973288,51.4554931,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>The Square Henley</name>
+      <name>The Square, Henley</name>
       <description><![CDATA[
       Score: 4.9<br/>
-      <a href="http://ediblereading.com/2015/10/09/the-square-henley/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/10/09/the-square-henley/" target="_blank">Review</a><br/>
       <a href="http://thesquarehenley.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.905213,51.537538,0</coordinates>
+        <coordinates>-0.9052638,51.5376682,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>itsu</name>
+      <name>Itsu</name>
       <description><![CDATA[
       Score: 6.6<br/>
-      <a href="http://ediblereading.com/2015/10/16/itsu/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/10/16/itsu/" target="_blank">Review</a><br/>
       <a href="https://www.itsu.com/locations/shops/reading_UK69.html" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.972087,51.456783,0</coordinates>
+        <coordinates>-0.9720868,51.4567834,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>The Bell Inn</name>
+      <name>The Bell, Waltham St Lawrence</name>
       <description><![CDATA[
       Score: 8.2<br/>
-      <a href="http://ediblereading.com/2015/10/23/the-bell-waltham-st-lawrence/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/10/23/the-bell-waltham-st-lawrence/" target="_blank">Review</a><br/>
       <a href="http://thebellwalthamstlawrence.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.806479,51.485058,0</coordinates>
+        <coordinates>-0.8059403,51.4836465,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1103,47 +1194,47 @@
       <name>Valpy Street</name>
       <description><![CDATA[
       Score: 6.8<br/>
-      <a href="http://ediblereading.com/2015/10/30/valpy-street/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/10/30/valpy-street/" target="_blank">Review</a><br/>
       <a href="http://www.valpys.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.969147,51.457302,0</coordinates>
+        <coordinates>-0.9689911,51.4572127,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>Brebis</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Brebis, Newbury</name>
       <description><![CDATA[
       Score: 9.1<br/>
-      <a href="http://ediblereading.com/2015/11/06/brebis-newbury/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/11/06/brebis-newbury/" target="_blank">Review</a><br/>
       <a href="http://www.brebis.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-1.3246312,51.4005651,0</coordinates>
+        <coordinates>-1.3250056,51.3989967,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>Lazeez</name>
       <description><![CDATA[
       Score: 6.7<br/>
-      <a href="http://ediblereading.com/2015/11/13/lazeez/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/11/13/lazeez/" target="_blank">Review</a><br/>
       <a href="http://www.lazeezrestaurant.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9380466,51.4489986,0</coordinates>
+        <coordinates>-0.9380554,51.4489973,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>The Crown</name>
+      <name>The Crown, Playhatch</name>
       <description><![CDATA[
       Score: 7.7<br/>
-      <a href="http://ediblereading.com/2015/11/20/the-crown-playhatch/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/11/20/the-crown-playhatch/" target="_blank">Review</a><br/>
       <a href="http://www.thecrown.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9355022,51.4798762,0</coordinates>
+        <coordinates>-0.9354799,51.47994,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1151,115 +1242,43 @@
       <name>Piwnica Pub</name>
       <description><![CDATA[
       Score: 4.7<br/>
-      <a href="http://ediblereading.com/2015/11/27/piwnica-pub/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/11/27/piwnica-pub/" target="_blank">Review</a><br/>
       <a href="http://www.piwnicapub.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9559541,51.4520819,0</coordinates>
+        <coordinates>-0.9561445,51.4522323,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Miller &amp; Carter Oracle</name>
+      <name>Miller &amp; Carter</name>
       <description><![CDATA[
       Score: 7.2<br/>
-      <a href="http://ediblereading.com/2015/12/04/miller-carter/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
+      <a href="https://ediblereading.com/2015/12/04/miller-carter/" target="_blank">Review</a><br/>
+      <a href="http://www.millerandcarter.co.uk/restaurants/south-east/millerandcarteroracle" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9694476,51.4532728,0</coordinates>
+        <coordinates>-0.9693754,51.4532991,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Picnic Foods</name>
+      <name>Picnic</name>
       <description><![CDATA[
       Score: 6.8<br/>
-      <a href="http://ediblereading.com/2015/12/11/picnic/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2015/12/11/picnic/" target="_blank">Review</a><br/>
       <a href="http://www.picnicfoods.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9698211,51.4552464,0</coordinates>
+        <coordinates>-0.9690717,51.4555037,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Bluegrass BBQ</name>
-      <description><![CDATA[
-      Score: 7.1<br/>
-      <a href="http://ediblereading.com/2016/01/22/bluegrass-bbq/" target="_blank">Review</a><br/>
-      <a href="http://bluegrass-bbq.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9725099,51.4542088,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Happy Diner</name>
-      <description><![CDATA[
-      Score: 6.2<br/>
-      <a href="http://ediblereading.com/2016/01/29/happy-diner/" target="_blank">Review</a><br/>
-      <a href="http://happydiner-reading.webs.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9716989,51.4682503,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
-      <name>Royal Tandoori</name>
-      <description><![CDATA[
-      Score: 7.9<br/>
-      <a href="http://ediblereading.com/2016/02/05/royal-tandoori/" target="_blank">Review</a><br/>
-      <a href="http://www.royaltandoorireading.com/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9690383,51.4547135,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Kobeda Palace</name>
-      <description><![CDATA[
-      Score: 7.4<br/>
-      <a href="http://ediblereading.com/2016/02/12/kobeda-palace/" target="_blank">Review</a><br/>
-      <a href="https://www.facebook.com/pages/Kobeda-Palace/588327924595489?fref=ts" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.996078,51.456819,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Jessy's Cafe &amp; Restaurant</name>
-      <description><![CDATA[
-      Score: 6.4<br/>
-      <a href="http://ediblereading.com/2016/02/19/jessys-wokingham/" target="_blank">Review</a><br/>
-      <a href="http://www.jessys.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.835449,51.408857,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Flowing Spring</name>
-      <description><![CDATA[
-      Score: 7.3<br/>
-      <a href="http://ediblereading.com/2016/02/26/the-flowing-spring-playhatch/" target="_blank">Review</a><br/>
-      <a href="http://theflowingspringpub.co.uk/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9262434,51.4847339,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Pachangas Mexican Restaurant</name>
+      <name>Pachangas, Henley</name>
       <description><![CDATA[
       Score: 6.6<br/>
-      <a href="http://ediblereading.com/2016/01/15/pachangas-henley/" target="_blank">Review</a><br/>
+      <a href="https://ediblereading.com/2016/01/15/pachangas-henley/" target="_blank">Review</a><br/>
       <a href="http://www.pachangas.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
@@ -1267,68 +1286,140 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>COSMO</name>
-      <description><![CDATA[
-      Score: 5.0<br/>
-      <a href="http://ediblereading.com/2016/03/11/cosmo/" target="_blank">Review</a><br/>
-      <a href="http://www.cosmo-restaurants.co.uk/locations/reading/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.9737086,51.4568337,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Coppa Club</name>
+      <name>Bluegrass BBQ</name>
       <description><![CDATA[
-      Score: 6.8<br/>
-      <a href="http://ediblereading.com/2016/03/18/coppa-club-sonning/" target="_blank">Review</a><br/>
-      <a href="http://coppaclub.co.uk/" target="_blank">Website</a>
+      Score: 7.1<br/>
+      <a href="https://ediblereading.com/2016/01/22/bluegrass-bbq/" target="_blank">Review</a><br/>
+      <a href="http://bluegrass-bbq.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.912884,51.475161,0</coordinates>
+        <coordinates>-0.9724313,51.4541544,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>The Sushi Maki</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Happy Diner</name>
       <description><![CDATA[
-      Score: 7.3<br/>
-      <a href="http://ediblereading.com/2016/03/25/the-sushi-maki-newbury/" target="_blank">Review</a><br/>
-      <a href="http://www.thesushimaki.co.uk/" target="_blank">Website</a>
+      Score: 6.2<br/>
+      <a href="https://ediblereading.com/2016/01/29/happy-diner/" target="_blank">Review</a><br/>
+      <a href="http://happydiner-reading.webs.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-1.3234244,51.4008152,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Handmade Burger Co. Reading</name>
-      <description><![CDATA[
-      Score: 5.3<br/>
-      <a href="http://ediblereading.com/2016/04/01/handmade-burger-company/" target="_blank">Review</a><br/>
-      <a href="http://handmadeburger.co.uk/our-restaurants/find-a-restaurant/handmade-burger-co-reading/" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>-0.968845,51.4536313,0</coordinates>
+        <coordinates>-0.9723743,51.4679226,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>Dhaulagiri kitchen cafe &amp; restaurant</name>
+      <name>Royal Tandoori</name>
+      <description><![CDATA[
+      Score: 7.9<br/>
+      <a href="https://ediblereading.com/2016/02/05/royal-tandoori/" target="_blank">Review</a><br/>
+      <a href="http://www.royaltandoorireading.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9691324,51.454663,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Kobeda Palace</name>
+      <description><![CDATA[
+      Score: 7.4<br/>
+      <a href="https://ediblereading.com/2016/02/12/kobeda-palace/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/pages/Kobeda-Palace/588327924595489?fref=ts" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.996293,51.45674,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Jessy’s, Wokingham</name>
+      <description><![CDATA[
+      Score: 6.4<br/>
+      <a href="https://ediblereading.com/2016/02/19/jessys-wokingham/" target="_blank">Review</a><br/>
+      <a href="http://www.jessys.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.8354839,51.4090303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Flowing Spring, Playhatch</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2016/02/26/the-flowing-spring-playhatch/" target="_blank">Review</a><br/>
+      <a href="http://theflowingspringpub.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9282261,51.483458,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Cosmo</name>
+      <description><![CDATA[
+      Score: 5.0<br/>
+      <a href="https://ediblereading.com/2016/03/11/cosmo/" target="_blank">Review</a><br/>
+      <a href="http://www.cosmo-restaurants.co.uk/locations/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9732122,51.4567494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Coppa Club, Sonning</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2016/03/18/coppa-club-sonning/" target="_blank">Review</a><br/>
+      <a href="http://coppaclub.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9129223,51.4751493,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Sushi Maki, Newbury</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2016/03/25/the-sushi-maki-newbury/" target="_blank">Review</a><br/>
+      <a href="http://www.thesushimaki.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.3233772,51.4010058,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Handmade Burger Co.</name>
+      <description><![CDATA[
+      Score: 5.3<br/>
+      <a href="https://ediblereading.com/2016/04/01/handmade-burger-company/" target="_blank">Review</a><br/>
+      <a href="http://handmadeburger.co.uk/our-restaurants/find-a-restaurant/handmade-burger-co-reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9713091,51.4534046,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Dhaulagiri Kitchen</name>
       <description><![CDATA[
       Score: 7.8<br/>
       <a href="https://ediblereading.com/2016/04/08/dhaulagiri-kitchen/" target="_blank">Review</a><br/>
       <a href="http://www.dhuaulgirikitchen.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9670188,51.439853,0</coordinates>
+        <coordinates>-0.9669932,51.4398566,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#highIcon</styleUrl>
-      <name>Sanpa Farmshop</name>
+      <name>Sanpa, Wokingham</name>
       <description><![CDATA[
       Score: 8.0<br/>
       <a href="https://ediblereading.com/2016/04/15/sanpa-wokingham/" target="_blank">Review</a><br/>
@@ -1340,14 +1431,14 @@
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>The Wellington Farm Shop</name>
+      <name>Wellington Farm Shop, Stratfield Saye</name>
       <description><![CDATA[
       Score: 5.2<br/>
       <a href="https://ediblereading.com/2016/04/29/wellington-farm-shop-stratfield-saye/" target="_blank">Review</a><br/>
       <a href="http://www.stratfield-saye.co.uk/wellington-farm-shop/farmshop-in-store/farm-shop-cafe/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9743928,51.3587044,0</coordinates>
+        <coordinates>-0.9787123,51.3600581,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1359,43 +1450,43 @@
       <a href="http://www.buonappetitoreading.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9834202,51.456177,0</coordinates>
+        <coordinates>-0.9827945,51.4562632,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Chaiyaphum</name>
+      <name>Chaiyaphum, Cane End</name>
       <description><![CDATA[
       Score: 6.8<br/>
       <a href="https://ediblereading.com/2016/05/13/chaiyaphum-cane-end/" target="_blank">Review</a><br/>
       <a href="http://chaiyaphum.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-1.022747,51.510471,0</coordinates>
+        <coordinates>-1.0175022,51.5076578,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>The Horn</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>I Love Paella at The Horn</name>
       <description><![CDATA[
       Score: 8.4<br/>
       <a href="https://ediblereading.com/2016/05/20/i-love-paella-at-the-horn/" target="_blank">Review</a><br/>
       <a href="http://ilovepaella.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9742848,51.453774,0</coordinates>
+        <coordinates>-0.9741776,51.453796,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Standard Tandoori Nepalese Restaurant</name>
+      <name>Standard Tandoori</name>
       <description><![CDATA[
       Score: 7.0<br/>
       <a href="https://ediblereading.com/2016/05/27/standard-tandoori/" target="_blank">Review</a><br/>
       <a href="http://www.standardtandoori.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9758041,51.4628486,0</coordinates>
+        <coordinates>-0.9759719,51.4628434,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1407,31 +1498,31 @@
       <a href="http://www.himalayamomohouse.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9466078,51.4780863,0</coordinates>
+        <coordinates>-0.9466151,51.4780815,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>The Royal Oak Paley Street</name>
+      <name>The Royal Oak, Paley Street</name>
       <description><![CDATA[
       Score: 7.7<br/>
       <a href="https://ediblereading.com/2016/06/10/the-royal-oak-paley-street/" target="_blank">Review</a><br/>
       <a href="http://www.theroyaloakpaleystreet.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.753045,51.478016,0</coordinates>
+        <coordinates>-0.7504991,51.4825683,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>The Little Angel</name>
+      <name>The Little Angel, Henley</name>
       <description><![CDATA[
       Score: 7.0<br/>
       <a href="https://ediblereading.com/2016/06/17/the-little-angel-henley/" target="_blank">Review</a><br/>
       <a href="http://www.thelittleangel.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.897497,51.5371963,0</coordinates>
+        <coordinates>-0.8974277,51.5391871,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1443,35 +1534,35 @@
       <a href="http://www.caffeineandcocktails.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9765355,51.4547974,0</coordinates>
+        <coordinates>-0.9694635,51.4542543,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Nirvana Spa</name>
+      <name>Nirvana Spa, Sindlesham</name>
       <description><![CDATA[
       Score: 7.3<br/>
       <a href="https://ediblereading.com/2016/07/01/nirvana-spa/" target="_blank">Review</a><br/>
       <a href="https://nirvanaspa.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.889878,51.420779,0</coordinates>
+        <coordinates>-0.8922695,51.4180239,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>Smokin' Billy's</name>
+      <name>Smokin’ Billy’s</name>
       <description><![CDATA[
       Score: 6.5<br/>
       <a href="https://ediblereading.com/2016/07/08/smokin-billys/" target="_blank">Review</a><br/>
       <a href="http://www.smokingbillys.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9747117,51.4549294,0</coordinates>
+        <coordinates>-0.9747327,51.4547782,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medhighIcon</styleUrl>
+      <styleUrl>#hiddenIcon</styleUrl>
       <name>Sam’s Wraps</name>
       <description><![CDATA[
       Score: 7.6<br/>
@@ -1479,19 +1570,19 @@
       <a href="https://www.facebook.com/Sams-wraps-1257121314303741/?fref=ts" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates></coordinates>
+        <coordinates>-0.9714796,51.456296,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#medlowIcon</styleUrl>
-      <name>Jackson's California Lake</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Jackson’s, California Country Park</name>
       <description><![CDATA[
       Score: 7.3<br/>
       <a href="https://ediblereading.com/2016/07/22/jacksons-california-country-park/" target="_blank">Review</a><br/>
       <a href="http://jacksonscalifornialake.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.8744914,51.3794456,0</coordinates>
+        <coordinates>-0.874365,51.379329,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1503,7 +1594,7 @@
       <a href="http://www.thelyndhurstreading.co.uk" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9614968,51.4536058,0</coordinates>
+        <coordinates>-0.9617687,51.4537887,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1515,7 +1606,7 @@
       <a href="http://www.three-guineas.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9722189,51.4587985,0</coordinates>
+        <coordinates>-0.9721646,51.4577116,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1527,24 +1618,24 @@
       <a href="http://www.francomanca.co.uk/restaurants/reading/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9698988,51.4535962,0</coordinates>
+        <coordinates>-0.9714082,51.4536424,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
       <styleUrl>#medlowIcon</styleUrl>
-      <name>7Bone Burger Co. - Reading</name>
+      <name>7Bone Burger Co.</name>
       <description><![CDATA[
       Score: 6.6<br/>
       <a href="https://ediblereading.com/2017/08/11/7bone-burger-co/" target="_blank">Review</a><br/>
       <a href="http://www.7bone.co.uk/reading.php" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9744208,51.4548641,0</coordinates>
+        <coordinates>-0.9744365,51.4548733,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#highIcon</styleUrl>
-      <name>Namaste Kitchen Reading Hook &amp; Tackle</name>
+      <styleUrl>#hiddenIcon</styleUrl>
+      <name>Namaste Kitchen</name>
       <description><![CDATA[
       Score: 8.4<br/>
       <a href="https://ediblereading.com/2017/09/01/namaste-kitchen/" target="_blank">Review</a><br/>
@@ -1556,7 +1647,7 @@
     </Placemark>
     <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
-      <name>Memory of Szechuan</name>
+      <name>Memory Of Sichuan</name>
       <description><![CDATA[
       Score: 7.6<br/>
       <a href="https://ediblereading.com/2017/09/22/memory-of-sichuan/" target="_blank">Review</a><br/>
@@ -1568,7 +1659,19 @@
     </Placemark>
     <Placemark>
       <styleUrl>#lowIcon</styleUrl>
-      <name>Veeno - The Italian Wine Café</name>
+      <name>Thirsty Bear</name>
+      <description><![CDATA[
+      Score: 5.3<br/>
+      <a href="https://ediblereading.com/2017/10/06/thirsty-bear/" target="_blank">Review</a><br/>
+      <a href="http://thirsty-bear.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9631722,51.4548051,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Veeno</name>
       <description><![CDATA[
       Score: 5.8<br/>
       <a href="https://ediblereading.com/2017/10/27/veeno/" target="_blank">Review</a><br/>
@@ -1587,7 +1690,7 @@
       <a href="http://kokorouk.com/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9722679,51.4558619,0</coordinates>
+        <coordinates>-0.9718887,51.4563849,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1599,7 +1702,211 @@
       <a href="http://tipsybean.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
-        <coordinates>-0.9726096,51.4679676,0</coordinates>
+        <coordinates>-0.9726684,51.4679919,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Queen’s Head</name>
+      <description><![CDATA[
+      Score: 6.7<br/>
+      <a href="https://ediblereading.com/2017/12/08/the-queens-head/" target="_blank">Review</a><br/>
+      <a href="http://www.readingpubcompany.com/home.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9565817,51.4430414,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Botanist</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2018/01/12/the-botanist/" target="_blank">Review</a><br/>
+      <a href="http://thebotanist.uk.com/locations/reading" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9694888,51.4548506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Gooi Nara</name>
+      <description><![CDATA[
+      Score: 7.9<br/>
+      <a href="https://ediblereading.com/2018/01/26/gooi-nara/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/GooiNara/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9652649,51.4454494,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Honest Burgers</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2018/02/09/honest-burgers/" target="_blank">Review</a><br/>
+      <a href="https://www.honestburgers.co.uk/locations/reading/#" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9694888,51.4548506,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Pho</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2018/02/23/pho/" target="_blank">Review</a><br/>
+      <a href="https://www.phocafe.co.uk/locations/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9689485,51.4551022,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Fidget &amp; Bob</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2018/03/09/fidget-bob/" target="_blank">Review</a><br/>
+      <a href="https://www.fidgetandbob.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9750696,51.4309522,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Jamaica Blue</name>
+      <description><![CDATA[
+      Score: 7.2<br/>
+      <a href="https://ediblereading.com/2018/03/23/jamaica-blue/" target="_blank">Review</a><br/>
+      <a href="http://www.jamaicablue.co.uk/store-locations/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.957811,51.4498288,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Thames Lido</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="https://ediblereading.com/2018/04/06/thames-lido/" target="_blank">Review</a><br/>
+      <a href="http://www.thameslido.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9615261,51.4591593,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Lusso, Newbury</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="https://ediblereading.com/2018/04/20/lusso-newbury/" target="_blank">Review</a><br/>
+      <a href="https://www.gelartoicecream.co.uk/lusso" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.3251899,51.4036433,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Real Greek</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="https://ediblereading.com/2018/05/18/the-real-greek/" target="_blank">Review</a><br/>
+      <a href="http://www.therealgreek.com/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9714082,51.4536424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Soju</name>
+      <description><![CDATA[
+      Score: 8.1<br/>
+      <a href="https://ediblereading.com/2018/06/08/the-soju/" target="_blank">Review</a><br/>
+      <a href="https://www.thesoju.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9685688,51.4550068,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Vel</name>
+      <description><![CDATA[
+      Score: 7.0<br/>
+      <a href="https://ediblereading.com/2018/06/22/vel/" target="_blank">Review</a><br/>
+      <a href="https://eat-vel.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9646892,51.4445925,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Afghanistan</name>
+      <description><![CDATA[
+      Score: <br/>
+      <a href="https://ediblereading.com/2018/07/20/afghan/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>67.709953,33.93911,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Tuscany Pizzeria</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="https://ediblereading.com/2018/08/03/tuscany-pizzeria/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/Tuscany-Pizzeria-1971426149852568/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9957891,51.4566158,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Brewdog</name>
+      <description><![CDATA[
+      Score: 6.2<br/>
+      <a href="https://ediblereading.com/2018/08/17/brewdog/" target="_blank">Review</a><br/>
+      <a href="https://www.brewdog.com/bars/uk/reading" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9743028,51.4534777,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Bottle &amp; Glass Inn</name>
+      <description><![CDATA[
+      Score: 7.4<br/>
+      <a href="https://ediblereading.com/2018/08/31/the-bottle-and-glass/" target="_blank">Review</a><br/>
+      <a href="https://www.bottleandglassinn.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9305705,51.508042,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Alona</name>
+      <description><![CDATA[
+      Score: 6.1<br/>
+      <a href="https://ediblereading.com/2018/09/14/alona/" target="_blank">Review</a><br/>
+      <a href="" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9352571,51.4472153,0</coordinates>
       </Point>
     </Placemark>
   </Document>
