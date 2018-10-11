@@ -62,7 +62,7 @@ function initialize() {
    ,mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
-  var kmlfile = 'edread.kml'
+  var kmlfile = 'http://edreadmap.com/edread.kml'
   var kmlurl = kmlfile + '?dummy=' + (new Date()).getTime(); // cache bust
   var edread = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   var kmllayer = new google.maps.KmlLayer({
