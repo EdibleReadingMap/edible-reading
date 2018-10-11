@@ -7,23 +7,25 @@
     <style>
       html, body {
         height: 100%;
-        margin: 0px;
-        padding: 0px;
-      }
-      .balloon {
-        position: relative;
-      }
-      .balloon #arrow {
-        width: 0;
-        height: 0;
-        display: block;
-        border-width: 15px 6px 0px 6px;
-        border-color: azure transparent transparent transparent;
-        border-style: solid;
-        opacity: 0.95;
-        position: absolute;
-        left: 0px;
-      }
+        padding: 0;
+        margin: 0;
+        }
+      #map {
+       height: 100%;
+       width: 100%;
+       overflow: hidden;
+       float: left;
+       border: thin solid #333;
+       }
+      #capture {
+       height: 100%;
+       width: 100%;
+       overflow: hidden;
+       float: left;
+       background-color: #ECECFB;
+       border: thin solid #333;
+       border-left: none;
+       }
     </style>
   </head>
   <body>
@@ -42,45 +44,21 @@
 
         var kmlLayer = new google.maps.KmlLayer(src, {
           suppressInfoWindows: true,
-          preserveViewport: true,
+          preserveViewport: false,
           map: map
         });
-//        var infobox = new InfoBox({
-//          boxStyle: {
-//            background: 'azure'
-//           ,opacity: 0.90
-//           ,'white-space': 'nowrap'
-//           ,margin: '3px 3px 0px -10px'
-//           ,padding: '3px 15px 3px 3px'
-//           ,borderRadius: '5px'
-//          }
-//         ,closeBoxMargin: '1px -11px 3px 3px'
-//         ,alignBottom: true
-//         ,infoBoxClearance: new google.maps.Size(1, 1)
-//        });
-//        kmlLayer.addListener('click', function(event) {
-//          var content = event.featureData.infoWindowHtml;
-//          var contentjq = $(content);
-//
-//          infobox.close();
-//          infobox.setOptions({
-//            pixelOffset: kmlEvent.pixelOffset
-//           ,position: kmlEvent.latLng
-//           ,content: content
-//          });
-//
-//          contentjq.addClass('balloon')
-//                   .html(kmlEvent.featureData.infoWindowHtml + '<div id="arrow"></div>');
-//          infobox.open(edread);
- //       });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf8YCXDE_JE0rbmmM9BlN8O8nPzlDazfc"&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf8YCXDE_JE0rbmmM9BlN8O8nPzlDazfc&callback=initMap">
     </script>
   </body>
 </html>
-
 <!--
 lat: 51.411168 <-> 51.539263
 long: -1.136984 <-> -0.7519424
