@@ -64,6 +64,12 @@ sub google_get {
     exit 1;
   }
 
+  if ($res->json->{status} and $res->json->{status} eq 'REQUEST_DENIED') {
+    print STDERR "error: request denied\n";
+    use DDP; p $res->json;
+    exit 1;
+  }
+
   unless ($res->json->{results}->[0]->{geometry}->{location}->{lat}) {
     print STDERR sprintf "warning: didn't find geocode for %s, falling back to placesearch\n", $r->name;
 
