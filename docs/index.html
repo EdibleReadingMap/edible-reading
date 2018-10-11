@@ -45,38 +45,38 @@
           preserveViewport: true,
           map: map
         });
-        var infobox = new InfoBox({
-          boxStyle: {
-            background: 'azure'
-           ,opacity: 0.90
-           ,'white-space': 'nowrap'
-           ,margin: '3px 3px 0px -10px'
-           ,padding: '3px 15px 3px 3px'
-           ,borderRadius: '5px'
-          }
-         ,closeBoxMargin: '1px -11px 3px 3px'
-         ,alignBottom: true
-         ,infoBoxClearance: new google.maps.Size(1, 1)
-        });
-        kmlLayer.addListener('click', function(event) {
-          var content = event.featureData.infoWindowHtml;
-          var contentjq = $(content);
-
-          infobox.close();
-          infobox.setOptions({
-            pixelOffset: kmlEvent.pixelOffset
-           ,position: kmlEvent.latLng
-           ,content: content
-          });
-
-          contentjq.addClass('balloon')
-                   .html(kmlEvent.featureData.infoWindowHtml + '<div id="arrow"></div>');
-          infobox.open(edread);
-        });
+//        var infobox = new InfoBox({
+//          boxStyle: {
+//            background: 'azure'
+//           ,opacity: 0.90
+//           ,'white-space': 'nowrap'
+//           ,margin: '3px 3px 0px -10px'
+//           ,padding: '3px 15px 3px 3px'
+//           ,borderRadius: '5px'
+//          }
+//         ,closeBoxMargin: '1px -11px 3px 3px'
+//         ,alignBottom: true
+//         ,infoBoxClearance: new google.maps.Size(1, 1)
+//        });
+//        kmlLayer.addListener('click', function(event) {
+//          var content = event.featureData.infoWindowHtml;
+//          var contentjq = $(content);
+//
+//          infobox.close();
+//          infobox.setOptions({
+//            pixelOffset: kmlEvent.pixelOffset
+//           ,position: kmlEvent.latLng
+//           ,content: content
+//          });
+//
+//          contentjq.addClass('balloon')
+//                   .html(kmlEvent.featureData.infoWindowHtml + '<div id="arrow"></div>');
+//          infobox.open(edread);
+ //       });
       }
     </script>
     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf8YCXDE_JE0rbmmM9BlN8O8nPzlDazfc"&callback=initMap">
     </script>
   </body>
 </html>
