@@ -61,7 +61,7 @@ function initialize() {
    ,mapTypeId: google.maps.MapTypeId.ROADMAP
   }
 
-  var kmlfile = 'https://raw.githubusercontent.com/ollyg/edible-reading/master/html/edread.kml'
+  var kmlfile = 'edread.kml'
   var kmlurl = kmlfile + '?dummy=' + (new Date()).getTime(); // cache bust
   var edread = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
   var kmllayer = new google.maps.KmlLayer({

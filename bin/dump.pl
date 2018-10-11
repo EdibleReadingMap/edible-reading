@@ -44,7 +44,7 @@ my $json = Mojo::Asset::File->new;
 $json->add_chunk( to_json( $data ) );
 $json->move_to('./edread.geojson');
 
-my $kml = IO::File->new('>html/edread.kml');
+my $kml = IO::File->new('>docs/edread.kml');
 my $writer = XML::Writer->new(
   OUTPUT => $kml,
   DATA_MODE => 1,
