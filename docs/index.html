@@ -7,58 +7,61 @@
     <style>
       html, body {
         height: 100%;
-        padding: 0;
-        margin: 0;
-        }
-      #map {
-       height: 100%;
-       width: 100%;
-       overflow: hidden;
-       float: left;
-       border: thin solid #333;
-       }
-      #capture {
-       height: 100%;
-       width: 100%;
-       overflow: hidden;
-       float: left;
-       background-color: #ECECFB;
-       border: thin solid #333;
-       border-left: none;
-       }
+        margin: 0px;
+        padding: 0px;
+      }
+      .balloon {
+        position: relative;
+      }
+      .balloon #arrow {
+        width: 0;
+        height: 0;
+        display: block;
+        border-width: 15px 6px 0px 6px;
+        border-color: azure transparent transparent transparent;
+        border-style: solid;
+        opacity: 0.95;
+        position: absolute;
+        left: 0px;
+      }
     </style>
   </head>
   <body>
     <div id="map"></div>
-    <div id="capture"></div>
     <script>
-      var map;
-      var src = 'http://edreadmap.com/edread.kml';
+var map;
 
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: new google.maps.LatLng(51.4542, -0.9731),
-          zoom: 2,
-          mapTypeId: 'terrain'
-        });
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.TERRAIN,
+    center: {
+      lat: 51.4542,
+      lng: -0.9731
+    }
+  });
 
-        var kmlLayer = new google.maps.KmlLayer(src, {
-          suppressInfoWindows: true,
-          preserveViewport: false,
-          map: map
-        });
-        kmlLayer.addListener('click', function(event) {
-          var content = event.featureData.infoWindowHtml;
-          var testimonial = document.getElementById('capture');
-          testimonial.innerHTML = content;
-        });
-      }
+}
+
+initMap();
+
+var kmlUrl = 'http://edreadmap.com/edread.kml';
+var kmlOptions = {
+  suppressInfoWindows: true,
+  preserveViewport: false,
+  map: map
+};
+var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
+//        var kmlLayer = new google.maps.KmlLayer(src, {
+//          suppressInfoWindows: true,
+//          preserveViewport: true,
+//          map: map
+//        });
     </script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf8YCXDE_JE0rbmmM9BlN8O8nPzlDazfc&callback=initMap">
     </script>
   </body>
-</html>
 <!--
 lat: 51.411168 <-> 51.539263
 long: -1.136984 <-> -0.7519424
