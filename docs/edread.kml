@@ -1897,5 +1897,17 @@
         <coordinates>-0.9352571,51.4472153,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Oishi</name>
+      <description><![CDATA[
+      Score: 8.0<br/>
+      <a href="https://ediblereading.com/2018/10/12/oishi/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/khun2018/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9949536,51.4567459,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
