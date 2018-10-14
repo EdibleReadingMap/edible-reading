@@ -90,7 +90,12 @@ while (my $r = $rs->next) {
     $writer->endTag('styleUrl');
 
     $writer->startTag('name');
-    $writer->characters( $r->name );
+    if ($r->tags =~ m/"closed"/i) {
+        $writer->characters( $r->name . ' (closed down)');
+    }
+    else {
+        $writer->characters( $r->name );
+    }
     $writer->endTag('name');
 
     $writer->startTag('description');
