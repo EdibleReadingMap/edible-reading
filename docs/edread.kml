@@ -1850,18 +1850,6 @@
       </Point>
     </Placemark>
     <Placemark>
-      <styleUrl>#lowIcon</styleUrl>
-      <name>Afghanistan</name>
-      <description><![CDATA[
-      Score: <br/>
-      <a href="https://ediblereading.com/2018/07/20/afghan/" target="_blank">Review</a><br/>
-      <a href="" target="_blank">Website</a>
-    ]]></description>
-      <Point>
-        <coordinates>67.709953,33.93911,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <styleUrl>#medhighIcon</styleUrl>
       <name>Tuscany Pizzeria</name>
       <description><![CDATA[
