@@ -28,9 +28,9 @@
   </head>
   <body>
     <div id="map"></div>
-    <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf8YCXDE_JE0rbmmM9BlN8O8nPzlDazfc">
-    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCf8YCXDE_JE0rbmmM9BlN8O8nPzlDazfc"></script>
+    <script src="https://rawgit.com/googlemaps/v3-utility-library/master/infobox/src/infobox_packed.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
 var map;
 
@@ -55,8 +55,38 @@ var kmlOptions = {
   map: map
 };
 var kmlLayer = new google.maps.KmlLayer(kmlUrl, kmlOptions);
+
+var infobox = new InfoBox({
+  boxStyle: {
+    background: 'azure'
+   ,opacity: 0.90
+   ,'white-space': 'nowrap'
+   ,margin: '3px 3px 0px -10px'
+   ,padding: '3px 15px 3px 3px'
+   ,borderRadius: '5px'
+  }
+ ,closeBoxMargin: '1px -11px 3px 3px'
+ ,alignBottom: true
+ ,infoBoxClearance: new google.maps.Size(1, 1)
+});
+
+google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent) {
+  var content = document.createElement('div');
+  var contentjq = $(content);
+  infobox.close();
+  infobox.setOptions({
+    pixelOffset: kmlEvent.pixelOffset
+   ,position: kmlEvent.latLng
+   ,content: content
+  });
+  contentjq.addClass('balloon')
+           .html(kmlEvent.featureData.infoWindowHtml + '<div id="arrow"></div>');
+  infobox.open(map);
+});
     </script>
   </body>
+</html>
+
 <!--
 lat: 51.411168 <-> 51.539263
 long: -1.136984 <-> -0.7519424
