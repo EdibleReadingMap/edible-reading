@@ -2,21 +2,19 @@
 
 [Edible Reading](http://ediblereading.com/) is a blog of restaurant/cafe food reviews on venues in the area of Reading, Berkshire, UK. The code in this repo scrapes info from the website, geocodes the venues, puts the results into a database, then produces [GeoJSON](http://en.wikipedia.org/wiki/GeoJSON) and [KML](https://developers.google.com/kml/documentation/?csw=1) files.
 
-Github kindly renders the GeoJSON [map](https://github.com/ollyg/edible-reading/blob/master/edread.geojson) (desktop browsers only). The KML file is available in a [Google map](http://go.edreadmap.com/).
+Github kindly renders the GeoJSON [map](https://github.com/ollyg/edible-reading/blob/master/edread.geojson) (desktop browsers only). The KML file is available in a [Google map](http://edreadmap.com/).
 
 # Workflow
 
 Something like the following:
 
 ````
+$ source ~/.google_api_token
 $ cd bin
-$ links.pl | sort > links
-$ cat links | parse.pl | google.pl | save.pl
+$ ./links-bytime-quick.pl | tail -1 | ./parse.pl | ./google.pl | ./save.pl
 $ cd ..
 $ bin/dump.pl
 ````
-
-Yes, the `cat` is intentional; forces correct encoding in some shells.
 
 # Google Locations and Places
 
