@@ -1909,5 +1909,29 @@
         <coordinates>-0.9949536,51.4567459,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Bierhaus</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2018/10/26/bierhaus/" target="_blank">Review</a><br/>
+      <a href="http://www.bierhauspub.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.977219,51.4541932,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>MumMum</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="https://ediblereading.com/2018/11/16/mummum/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/Simply.Vietnamese.Taste/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9692176,51.4548707,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
