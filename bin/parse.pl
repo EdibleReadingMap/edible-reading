@@ -14,7 +14,7 @@ struct Review => [qw/ name address score website date review tags /];
 while (<>) {
     my $link = $_ or next;
     chomp $link;
-    print STDERR $link, "\n";
+    # print STDERR $link, "\n";
 
     my $page = $ua->get( 'https://'. $link )->res->dom;
     my $r = Review((undef) x 6, []);
