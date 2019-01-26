@@ -1903,7 +1903,7 @@
       <description><![CDATA[
       Score: 8.0<br/>
       <a href="https://ediblereading.com/2018/10/12/oishi/" target="_blank">Review</a><br/>
-      <a href="https://www.facebook.com/khun2018/" target="_blank">Website</a>
+      <a href="https://www.oishi-reading.co.uk/" target="_blank">Website</a>
     ]]></description>
       <Point>
         <coordinates>-0.9949536,51.4567459,0</coordinates>
@@ -1931,6 +1931,54 @@
     ]]></description>
       <Point>
         <coordinates>-0.9692176,51.4548707,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Bench Rest</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2018/12/07/bench-rest/" target="_blank">Review</a><br/>
+      <a href="https://www.bench-rest.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9731021,51.4553771,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>TGI Fridays</name>
+      <description><![CDATA[
+      Score: 3.6<br/>
+      <a href="https://ediblereading.com/2018/12/21/tgi-fridays/" target="_blank">Review</a><br/>
+      <a href="https://www.tgifridays.co.uk/locations/get/Reading%20Oracle#/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9714082,51.4536424,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>German Doner Kebab</name>
+      <description><![CDATA[
+      Score: 5.4<br/>
+      <a href="https://ediblereading.com/2019/01/11/german-doner-kebab/" target="_blank">Review</a><br/>
+      <a href="http://www.germandonerkebab.com" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9750043,51.4563694,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Dairy</name>
+      <description><![CDATA[
+      Score: 4.6<br/>
+      <a href="https://ediblereading.com/2019/01/25/the-dairy/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/londonroadcampus/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9610418,51.4497122,0</coordinates>
       </Point>
     </Placemark>
   </Document>
