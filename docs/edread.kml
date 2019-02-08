@@ -1981,5 +1981,17 @@
         <coordinates>-0.9610418,51.4497122,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Wau</name>
+      <description><![CDATA[
+      Score: 6.8<br/>
+      <a href="https://ediblereading.com/2019/02/08/wau/" target="_blank">Review</a><br/>
+      <a href="http://www.waumalaysian.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.3222305,51.3994171,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
