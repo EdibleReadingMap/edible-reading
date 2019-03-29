@@ -1993,5 +1993,17 @@
         <coordinates>-1.3222305,51.3994171,0</coordinates>
       </Point>
     </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>The Miller Of Mansfield, Goring</name>
+      <description><![CDATA[
+      Score: 8.5<br/>
+      <a href="https://ediblereading.com/2019/02/22/the-miller-of-mansfield/" target="_blank">Review</a><br/>
+      <a href="https://millerofmansfield.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-1.137891,51.5226748,0</coordinates>
+      </Point>
+    </Placemark>
   </Document>
 </kml>
