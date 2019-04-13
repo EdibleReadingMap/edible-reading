@@ -2,17 +2,17 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
+    <Style id="lowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="medhighIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="medlowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -23,17 +23,17 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="lowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="highIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medlowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2003,6 +2003,19 @@
     ]]></description>
       <Point>
         <coordinates>-1.1411748,51.5229491,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Corn Stores</name>
+      <description><![CDATA[
+      Score: 
+6.7<br/>
+      <a href="https://ediblereading.com/2019/04/12/the-corn-stores/" target="_blank">Review</a><br/>
+      <a href="https://www.thecornstoresreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9697108,51.4577468,0</coordinates>
       </Point>
     </Placemark>
   </Document>
