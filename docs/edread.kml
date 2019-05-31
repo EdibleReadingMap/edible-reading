@@ -2,6 +2,13 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
+    <Style id="hiddenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="medlowIcon">
       <IconStyle>
         <Icon>
@@ -9,10 +16,10 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="hiddenIcon">
+    <Style id="medhighIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -27,13 +34,6 @@
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="medhighIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2041,6 +2041,18 @@
     ]]></description>
       <Point>
         <coordinates>-0.9954249,51.456547,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Revolución de Cuba</name>
+      <description><![CDATA[
+      Score: 6.6<br/>
+      <a href="https://ediblereading.com/2019/05/31/revolucion-de-cuba/" target="_blank">Review</a><br/>
+      <a href="https://www.revoluciondecuba.com/bar/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9727775,51.4565265,0</coordinates>
       </Point>
     </Placemark>
   </Document>
