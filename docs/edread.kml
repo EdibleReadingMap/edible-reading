@@ -9,20 +9,6 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="highIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="lowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="medlowIcon">
       <IconStyle>
         <Icon>
@@ -34,6 +20,20 @@
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="highIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="lowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2053,6 +2053,18 @@
     ]]></description>
       <Point>
         <coordinates>-0.9727775,51.4565265,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Kungfu Kitchen</name>
+      <description><![CDATA[
+      Score: 8.4<br/>
+      <a href="https://ediblereading.com/2019/06/14/kungfu-kitchen/" target="_blank">Review</a><br/>
+      <a href="https://kungfukitchen-chineserestaurant.business.site/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9552117,51.4426759,0</coordinates>
       </Point>
     </Placemark>
   </Document>
