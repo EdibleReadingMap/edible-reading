@@ -2,13 +2,6 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="lowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="highIcon">
       <IconStyle>
         <Icon>
@@ -27,6 +20,13 @@
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="lowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
