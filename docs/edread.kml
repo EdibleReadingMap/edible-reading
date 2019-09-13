@@ -2,13 +2,6 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="hiddenIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="highIcon">
       <IconStyle>
         <Icon>
@@ -16,10 +9,17 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="medhighIcon">
+    <Style id="hiddenIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medlowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -30,10 +30,10 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="medlowIcon">
+    <Style id="medhighIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
