@@ -9,10 +9,10 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="medhighIcon">
+    <Style id="medlowIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -23,17 +23,17 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="medlowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="hiddenIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medhighIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
