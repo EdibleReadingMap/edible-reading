@@ -2,24 +2,24 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="highIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="medlowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="lowIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medhighIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="highIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -30,10 +30,10 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="medhighIcon">
+    <Style id="medlowIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2068,6 +2068,102 @@
       </Point>
     </Placemark>
     <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Lemoni</name>
+      <description><![CDATA[
+      Score: 6.2<br/>
+      <a href="https://ediblereading.com/2019/07/12/lemoni/" target="_blank">Review</a><br/>
+      <a href="https://reading.lemoniuk.com/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9718094,51.4537251,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Global Café Kitchen</name>
+      <description><![CDATA[
+      Score: 6.9<br/>
+      <a href="https://ediblereading.com/2019/07/26/global-cafe/" target="_blank">Review</a><br/>
+      <a href="https://www.risc.org.uk/global-cafe/global-cafe-kitchen" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9680492,51.4528776,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>Buenasado</name>
+      <description><![CDATA[
+      Score: 7.7<br/>
+      <a href="https://ediblereading.com/2019/08/09/buenasado/" target="_blank">Review</a><br/>
+      <a href="https://www.buenasado.com/restaurants/reading/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9707129,51.4536968,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Cozze</name>
+      <description><![CDATA[
+      Score: 6.3<br/>
+      <a href="https://ediblereading.com/2019/08/30/cozze/" target="_blank">Review</a><br/>
+      <a href="https://www.cozzerestaurants.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9752929,51.4616241,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Lyndhurst</name>
+      <description><![CDATA[
+      Score: 7.8<br/>
+      <a href="https://ediblereading.com/2019/09/13/the-lyndhurst-3/" target="_blank">Review</a><br/>
+      <a href="https://www.thelyndhurstreading.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9617687,51.4537887,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Tutu’s Ethiopian Table</name>
+      <description><![CDATA[
+      Score: 7.3<br/>
+      <a href="https://ediblereading.com/2019/10/18/tutus-ethiopian-table-2/" target="_blank">Review</a><br/>
+      <a href="https://www.facebook.com/tutusethiopiantablepalmerpark/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9405662,51.4518067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>The Pantry</name>
+      <description><![CDATA[
+      Score: 4.9<br/>
+      <a href="https://ediblereading.com/2019/11/01/the-pantry/" target="_blank">Review</a><br/>
+      <a href="https://thepantrytownhall.co.uk/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9699452,51.4571088,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>The Last Crumb</name>
+      <description><![CDATA[
+      Score: 7.4<br/>
+      <a href="https://ediblereading.com/2019/11/22/the-last-crumb/" target="_blank">Review</a><br/>
+      <a href="https://dodopubs.com/locations/the-last-crumb/" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9703503,51.4694373,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <styleUrl>#highIcon</styleUrl>
       <name>Zest</name>
       <description><![CDATA[
@@ -2077,6 +2173,30 @@
     ]]></description>
       <Point>
         <coordinates>-0.9871196,51.4198579,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medlowIcon</styleUrl>
+      <name>Vegivores</name>
+      <description><![CDATA[
+      Score: 7.1<br/>
+      <a href="https://ediblereading.com/2020/01/24/vegivores/" target="_blank">Review</a><br/>
+      <a href="https://www.wearevegivores.com" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9741579,51.4674365,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Taco Bell</name>
+      <description><![CDATA[
+      Score: 3.9<br/>
+      <a href="https://ediblereading.com/2020/02/07/taco-bell/" target="_blank">Review</a><br/>
+      <a href="https://locations.tacobell.co.uk/reading/207-broad-street-mall.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9755859,51.455099,0</coordinates>
       </Point>
     </Placemark>
   </Document>

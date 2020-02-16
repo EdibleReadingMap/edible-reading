@@ -8,8 +8,8 @@ use Mojo::UserAgent;
 my $seen = {};
 my $ua = Mojo::UserAgent->new;
 
-foreach my $year (19) {
-  foreach my $month ('07' .. '12') {
+foreach my $year (20) {
+  foreach my $month ('02' .. '12') {
     my $list = "https://ediblereading.com/20$year/$month/";
     my $page = $ua->get($list) or next;
     my @links = $page->res->dom->find('h1.entry-title a')->each;
