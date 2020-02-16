@@ -2,10 +2,10 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="hiddenIcon">
+    <Style id="highIcon">
       <IconStyle>
         <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -23,17 +23,17 @@
         </Icon>
       </IconStyle>
     </Style>
+    <Style id="hiddenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="medhighIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="highIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2065,6 +2065,18 @@
     ]]></description>
       <Point>
         <coordinates>-0.9552117,51.4426759,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#highIcon</styleUrl>
+      <name>Zest</name>
+      <description><![CDATA[
+      Score: 8.0<br/>
+      <a href="https://ediblereading.com/2019/12/06/zest/" target="_blank">Review</a><br/>
+      <a href="http://www.zestatlimesquare.co.uk/home.html" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9871196,51.4198579,0</coordinates>
       </Point>
     </Placemark>
   </Document>
