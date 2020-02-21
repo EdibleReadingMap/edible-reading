@@ -2,24 +2,10 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <Style id="lowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="medhighIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="highIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -34,6 +20,20 @@
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/ylw-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="lowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="highIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/grn-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2197,6 +2197,18 @@
     ]]></description>
       <Point>
         <coordinates>-0.9755859,51.455099,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#lowIcon</styleUrl>
+      <name>Sen Sushi</name>
+      <description><![CDATA[
+      Score: 6.0<br/>
+      <a href="https://ediblereading.com/2020/02/21/sen-sushi/" target="_blank">Review</a><br/>
+      <a href="https://sen-sushi-japanese-restaurant.business.site" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.9300852,51.4423926,0</coordinates>
       </Point>
     </Placemark>
   </Document>
