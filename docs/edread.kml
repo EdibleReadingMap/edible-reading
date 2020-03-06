@@ -2,6 +2,20 @@
 
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
+    <Style id="lowIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="medhighIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Style id="highIcon">
       <IconStyle>
         <Icon>
@@ -16,24 +30,10 @@
         </Icon>
       </IconStyle>
     </Style>
-    <Style id="lowIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/pink-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
     <Style id="hiddenIcon">
       <IconStyle>
         <Icon>
           <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank_maps.png</href>
-        </Icon>
-      </IconStyle>
-    </Style>
-    <Style id="medhighIcon">
-      <IconStyle>
-        <Icon>
-          <href>http://maps.google.com/mapfiles/kml/paddle/blu-blank_maps.png</href>
         </Icon>
       </IconStyle>
     </Style>
@@ -2209,6 +2209,18 @@
     ]]></description>
       <Point>
         <coordinates>-0.9300852,51.4423926,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <styleUrl>#medhighIcon</styleUrl>
+      <name>The Hero Of Maida, Maida Vale</name>
+      <description><![CDATA[
+      Score: 7.5<br/>
+      <a href="https://ediblereading.com/2020/03/06/the-hero-of-maida-maida-vale/" target="_blank">Review</a><br/>
+      <a href="https://theheromaidavale.co.uk" target="_blank">Website</a>
+    ]]></description>
+      <Point>
+        <coordinates>-0.1887319,51.5243638,0</coordinates>
       </Point>
     </Placemark>
   </Document>
